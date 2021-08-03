@@ -1,0 +1,1142 @@
+<!doctype html>
+<html lang="nl-NL">
+
+<!-- Mirrored from zolder.io/inside-a-phishing-panel/ by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 23 Jul 2021 03:55:58 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="profile" href="https://gmpg.org/xfn/11">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../wp-content/themes/zolder/css/app1c07.css?v=17"/>
+    <link rel="stylesheet" href="../wp-content/themes/zolder/css/ie11.css"/>
+
+    <link rel="shortcut icon" href="../wp-content/themes/zolder/favicon.html"/>
+    <link rel="apple-touch-icon" sizes="152x152" href="../images/icon.png">
+    <link href="https://fonts.googleapis.com/css2?family=Teko:wght@300;400;500;700&amp;display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&amp;display=swap"
+          rel="stylesheet">
+    <script type="text/javascript"
+            src="https://cdnjs.cloudflare.com/ajax/libs/jQuery.dotdotdot/4.0.11/dotdotdot.js"></script>
+    <title>Inside a phishing panel &#8211; Zolder B.V.</title>
+<meta name='robots' content='max-image-preview:large' />
+<link rel='dns-prefetch' href='http://s.w.org/' />
+<link rel='dns-prefetch' href='http://widgets.wp.com/' />
+<link rel='dns-prefetch' href='http://jetpack.wordpress.com/' />
+<link rel='dns-prefetch' href='http://s0.wp.com/' />
+<link rel='dns-prefetch' href='http://s1.wp.com/' />
+<link rel='dns-prefetch' href='http://s2.wp.com/' />
+<link rel='dns-prefetch' href='http://public-api.wordpress.com/' />
+<link rel='dns-prefetch' href='http://0.gravatar.com/' />
+<link rel='dns-prefetch' href='http://1.gravatar.com/' />
+<link rel='dns-prefetch' href='http://2.gravatar.com/' />
+<link rel='dns-prefetch' href='http://i0.wp.com/' />
+<link rel='dns-prefetch' href='http://i1.wp.com/' />
+<link rel='dns-prefetch' href='http://i2.wp.com/' />
+<link rel='dns-prefetch' href='http://c0.wp.com/' />
+<link rel="alternate" type="application/rss+xml" title="Zolder B.V. &raquo; Feed" href="../feed/index.html" />
+<link rel="alternate" type="application/rss+xml" title="Zolder B.V. &raquo; Reactiesfeed" href="../comments/feed/index.html" />
+<link rel="alternate" type="application/rss+xml" title="Zolder B.V. &raquo; Inside a phishing panel Reactiesfeed" href="feed/index.html" />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/13.1.0\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/13.1.0\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/zolder.io\/wp-includes\/js\/wp-emoji-release.min.js?ver=5.8"}};
+			!function(e,a,t){var n,r,o,i=a.createElement("canvas"),p=i.getContext&&i.getContext("2d");function s(e,t){var a=String.fromCharCode;p.clearRect(0,0,i.width,i.height),p.fillText(a.apply(this,e),0,0);e=i.toDataURL();return p.clearRect(0,0,i.width,i.height),p.fillText(a.apply(this,t),0,0),e===i.toDataURL()}function c(e){var t=a.createElement("script");t.src=e,t.defer=t.type="text/javascript",a.getElementsByTagName("head")[0].appendChild(t)}for(o=Array("flag","emoji"),t.supports={everything:!0,everythingExceptFlag:!0},r=0;r<o.length;r++)t.supports[o[r]]=function(e){if(!p||!p.fillText)return!1;switch(p.textBaseline="top",p.font="600 32px Arial",e){case"flag":return s([127987,65039,8205,9895,65039],[127987,65039,8203,9895,65039])?!1:!s([55356,56826,55356,56819],[55356,56826,8203,55356,56819])&&!s([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]);case"emoji":return!s([10084,65039,8205,55357,56613],[10084,65039,8203,55357,56613])}return!1}(o[r]),t.supports.everything=t.supports.everything&&t.supports[o[r]],"flag"!==o[r]&&(t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&t.supports[o[r]]);t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&!t.supports.flag,t.DOMReady=!1,t.readyCallback=function(){t.DOMReady=!0},t.supports.everything||(n=function(){t.readyCallback()},a.addEventListener?(a.addEventListener("DOMContentLoaded",n,!1),e.addEventListener("load",n,!1)):(e.attachEvent("onload",n),a.attachEvent("onreadystatechange",function(){"complete"===a.readyState&&t.readyCallback()})),(n=t.source||{}).concatemoji?c(n.concatemoji):n.wpemoji&&n.twemoji&&(c(n.twemoji),c(n.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+	<link rel='stylesheet' id='all-css-efe1efef220a5d4db229297676eda636' href='../_static/index381d.html??-eJyFUNluAjEM/CGCBUIcDxXfksNNDc6hONFq+fpmAVXL0fbN45mxPR6ysilWjBUyN09RwLcODRYPphE7MJzsWTGZossIUkfGpRVZDK9W1mNqVflC7lFI0XJzKHASCOhII2OYnHOQux2LYvTajstA8V935+Z47nk+zaZrDgFHUn+QehunfvVxApfEDsv7xI+STkIuJOG37dNbmkGFwaBTvSu3sZ2pueCn/HX6CWvW9nzdcq8n6TF8rLbr7e6wO2z230krriM=' type='text/css' media='all' />
+<style id='wp-block-library-inline-css'>
+.has-text-align-justify{text-align:justify;}
+</style>
+<style id='__EPYT__style-inline-css'>
+
+                .epyt-gallery-thumb {
+                        width: 33.333%;
+                }
+                
+</style>
+<style id='jetpack-global-styles-frontend-style-inline-css'>
+:root { --font-headings: unset; --font-base: unset; --font-headings-default: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif; --font-base-default: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;}
+</style>
+<script src='../wp-includes/js/jquery/jquery.minaf6c.js?ver=3.6.0' id='jquery-core-js'></script>
+<script id='__ytprefs__-js-extra'>
+var _EPYT_ = {"ajaxurl":"https:\/\/zolder.io\/wp-admin\/admin-ajax.php","security":"267f53fe44","gallery_scrolloffset":"20","eppathtoscripts":"https:\/\/zolder.io\/wp-content\/plugins\/youtube-embed-plus\/scripts\/","eppath":"https:\/\/zolder.io\/wp-content\/plugins\/youtube-embed-plus\/","epresponsiveselector":"[\"iframe.__youtube_prefs_widget__\"]","epdovol":"1","version":"13.4.3","evselector":"iframe.__youtube_prefs__[src], iframe[src*=\"youtube.com\/embed\/\"], iframe[src*=\"youtube-nocookie.com\/embed\/\"]","ajax_compat":"","ytapi_load":"light","pause_others":"","stopMobileBuffer":"1","vi_active":"","vi_js_posttypes":[]};
+</script>
+<script type='text/javascript'  src='../_static/indexf1ca.html??wp-includes/js/jquery/jquery-migrate.min.js,wp-content/plugins/youtube-embed-plus/scripts/ytprefs.min.js?m=1626076414'></script>
+<link rel="https://api.w.org/" href="../wp-json/index.html" /><link rel="alternate" type="application/json" href="../wp-json/wp/v2/posts/590.json" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="../xmlrpc0db0.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="../wp-includes/wlwmanifest.xml" /> 
+
+<link rel="canonical" href="index.html" />
+<link rel='shortlink' href='https://wp.me/pbrcxL-9w' />
+<link rel="alternate" type="application/json+oembed" href="../wp-json/oembed/1.0/embed510e.json?url=https%3A%2F%2Fzolder.io%2Finside-a-phishing-panel%2F" />
+<link rel="alternate" type="text/xml+oembed" href="../wp-json/oembed/1.0/embedd230?url=https%3A%2F%2Fzolder.io%2Finside-a-phishing-panel%2F&amp;format=xml" />
+<style type='text/css'>img#wpstats{display:none}</style>
+		<link rel="pingback" href="../xmlrpc.php"><meta name="description" content="Dutch and Belgium citizens are receiving phishing attacks every day. But how does that exactly work?" />
+			<style type="text/css">
+				/* If html does not have either class, do not show lazy loaded images. */
+				html:not( .jetpack-lazy-images-js-enabled ):not( .js ) .jetpack-lazy-image {
+					display: none;
+				}
+			</style>
+			<script>
+				document.documentElement.classList.add(
+					'jetpack-lazy-images-js-enabled'
+				);
+			</script>
+		
+<!-- Jetpack Open Graph Tags -->
+<meta property="og:type" content="article" />
+<meta property="og:title" content="Inside a phishing panel" />
+<meta property="og:url" content="https://zolder.io/inside-a-phishing-panel/" />
+<meta property="og:description" content="Dutch and Belgium citizens are receiving phishing attacks every day. But how does that exactly work?" />
+<meta property="article:published_time" content="2020-05-20T21:46:30+00:00" />
+<meta property="article:modified_time" content="2021-01-06T10:53:26+00:00" />
+<meta property="og:site_name" content="Zolder B.V." />
+<meta property="og:image" content="http://img.youtube.com/vi/KUD65EoEFro/0.jpg" />
+<meta property="og:image:secure_url" content="https://img.youtube.com/vi/KUD65EoEFro/0.jpg" />
+<meta property="og:image:width" content="1428" />
+<meta property="og:image:height" content="1273" />
+<meta property="og:locale" content="nl_NL" />
+<meta name="twitter:text:title" content="Inside a phishing panel" />
+<meta name="twitter:image" content="https://zolder.io/wp-content/uploads/2020/05/pic1.png?w=640" />
+<meta name="twitter:card" content="summary_large_image" />
+
+<!-- End Jetpack Open Graph Tags -->
+<link rel="icon" href="https://i0.wp.com/zolder.io/wp-content/uploads/2020/04/cropped-ZolderTuneIn_logo_square.png?fit=32%2C32&amp;ssl=1" sizes="32x32" />
+<link rel="icon" href="https://i0.wp.com/zolder.io/wp-content/uploads/2020/04/cropped-ZolderTuneIn_logo_square.png?fit=192%2C192&amp;ssl=1" sizes="192x192" />
+<link rel="apple-touch-icon" href="https://i0.wp.com/zolder.io/wp-content/uploads/2020/04/cropped-ZolderTuneIn_logo_square.png?fit=180%2C180&amp;ssl=1" />
+<meta name="msapplication-TileImage" content="https://i0.wp.com/zolder.io/wp-content/uploads/2020/04/cropped-ZolderTuneIn_logo_square.png?fit=270%2C270&#038;ssl=1" />
+			<style type="text/css" id="wp-custom-css">
+				/*body { font-size: 20px }*/
+nav.header__menu ul { grid-template-columns: 223px 223px 223px 223px;  }
+div.entry-content div {
+	margin-bottom: 2em;
+}
+div.entry-content div div {
+	margin-bottom: 0;
+}
+figcaption {
+	text-align: center;
+	font-size: 10px;
+	line-height: auto;
+}
+div.content-block blockquote.wp-block-quote {
+	margin-top: 2em !important;
+	margin-bottom: 3em !important;
+}
+div.content-block h2 {
+	margin-top: 1em !important;
+	margin-bottom: 0.5em !important;
+}			</style>
+		<!-- Your Google Analytics Plugin is missing the tracking ID -->
+</head>
+
+<body class="post-template-default single single-post postid-590 single-format-standard no-sidebar">
+<div id="body">
+    <div class="content__lines">
+        <div class="content__lines-positioner">
+            <div class="content__line content__line--top">
+                <span class="top"></span>
+            </div>
+            <div class="content__extra-lines"></div>
+            <div class="content__line"></div>
+            <div class="content__line content__line--transparent">
+                <span class="shadow"></span>
+            </div>
+            <div class="content__line content__line--green">
+                <span class="bottom"></span>
+            </div>
+            <div class="content__background-image"></div>
+        </div>
+    </div>
+    <div class="body__content">
+        <div class="body__top">
+            <header class="header">
+                <div class="header__inner">
+                    <a href="../index.html" class="header__logo"></a>
+                    <nav class="header__menu">
+                        <div class="menu-primary-container"><ul id="menu-primary" class="menu"><li id="menu-item-15205" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-15205"><a href="../about/index.html">About (EN)</a></li>
+<li id="menu-item-17227" class="menu-item menu-item-type-taxonomy menu-item-object-category current-post-ancestor current-menu-parent current-post-parent menu-item-17227"><a href="../category/blogs/index.html">Blogs</a></li>
+<li id="menu-item-362" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-362"><a href="../category/zoldersessions/index.html">Zoldersessions</a></li>
+<li id="menu-item-706" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-706"><a href="../wcgw/index.html">WCGW</a></li>
+<li id="menu-item-87" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-87"><a href="../products/index.html">Products</a></li>
+<li id="menu-item-173" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-173"><a href="../support/index.html">Support</a></li>
+<li id="menu-item-91" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-91"><a href="../over-zolder/index.html">Over Zolder</a></li>
+<li id="menu-item-90" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-90"><a href="../contact/index.html">Contact</a></li>
+</ul></div>                    </nav>
+                    <div class="header__mobile-menu">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 342.78 304.69">
+    <path class="cls-1"
+          d="M97.9,204.51h158a.63.63,0,0,1,.47.2l11.88,12.41a.7.7,0,0,1,0,1L256.41,230.5a.63.63,0,0,1-.47.2H97.9a.63.63,0,0,1-.47-.2L85.55,218.09a.7.7,0,0,1,0-1l11.88-12.41A.63.63,0,0,1,97.9,204.51Z"/>
+    <path class="cls-1"
+          d="M97.9,139.05h158a.63.63,0,0,1,.47.2l11.88,12.41a.7.7,0,0,1,0,1L256.41,165a.63.63,0,0,1-.47.2H97.9a.63.63,0,0,1-.47-.2L85.55,152.63a.7.7,0,0,1,0-1l11.88-12.41A.63.63,0,0,1,97.9,139.05Z"/>
+    <path class="cls-1"
+          d="M97.9,73.59h158a.63.63,0,0,1,.47.2L268.29,86.2a.7.7,0,0,1,0,1L256.41,99.58a.63.63,0,0,1-.47.2H97.9a.63.63,0,0,1-.47-.2L85.55,87.17a.7.7,0,0,1,0-1L97.43,73.79A.63.63,0,0,1,97.9,73.59Z"/>
+</svg>                    </div>
+                </div>
+            </header>
+    <div class="blog-content">
+        <div class="blog-content__content">
+            <div class="text-left">
+                <div class="text-left__vertical">
+                    applied security research
+                </div>
+            </div>
+                            <div class="content-block">
+    <div class="content-block__content content-block__content--blog">
+        <div class="content-block__top-title content-block__top-title--blog">
+            <a href="../author/zldrwesley/index.html">
+				Wesley Neelen</a> - 20 mei 2020			
+        </div>
+        <h1>Inside a phishing panel</h1>
+<p><strong>This blog describes some background information on the uAdmin panel. This video shows the panel live in action:</strong></p>
+
+
+
+<figure class="wp-block-embed-youtube wp-block-embed is-type-video is-provider-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio"><div class="wp-block-embed__wrapper">
+<iframe loading="lazy"  id="_ytid_99622"  width="480" height="270"  data-origwidth="480" data-origheight="270"  src="https://www.youtube.com/embed/KUD65EoEFro?enablejsapi=1&amp;autoplay=0&amp;cc_load_policy=0&amp;cc_lang_pref=&amp;iv_load_policy=1&amp;loop=0&amp;modestbranding=0&amp;rel=1&amp;fs=1&amp;playsinline=0&amp;autohide=2&amp;theme=dark&amp;color=red&amp;controls=1&amp;" class="__youtube_prefs__  epyt-is-override  no-lazyload" title="YouTube player"  allow="autoplay; encrypted-media" allowfullscreen data-no-lazy="1" data-skipgform_ajax_framebjll=""></iframe>
+</div></figure>
+
+
+
+<h2><strong>Introduction</strong></h2>
+
+
+
+<p>Dutch and Belgium citizens are receiving phishing attacks every day. But how does that exactly work?</p>
+
+
+
+<p>Phishers are approaching citizens through mail, text messages, WhatsApp or auction platforms. They are trying to lure the victim to a phishing site to fill in their credentials. Those credentials then are used to gain access to the bank account of the victim.</p>
+
+
+
+<p>While investigating the phishing frameworks that are used, we see continuous innovation in knowledge and tools the phishers use. They improve their attack scenario’s all the time, which is for a large part why these scams are so successful.</p>
+
+
+
+<h2><strong>Analyzing phishing sites is fun!</strong></h2>
+
+
+
+<p>At Zolder we are actively monitoring for phishing sites targeting Dutch and Belgium users. A very valuable source to do so are the <a href="https://en.wikipedia.org/wiki/Certificate_Transparency">certificate transparency logs</a>. These were introduced to improve reliability of the decentralized nature of the certificate ecosystem. The goal of the initiative is to make the ecosystem more transparent by giving everyone around the globe the ability to monitor and/or audit certificates being issued by the different authorities. One of the reasons is the hack performed at <a href="https://en.wikipedia.org/wiki/DigiNotar">DigiNotar</a> back in 2011.</p>
+
+
+
+<p>Our monitoring system finds potential phishing URLs in the transparency logs. We get many phishing sites that are being used to perform attacks against Dutch and Belgium citizens. Usually the main goal of those attacks is to obtain access to the bank accounts of the victims. We have seen almost every bank in The Netherlands and Belgium being imitated for these kind of scams..</p>
+
+
+
+<p>It’s fun to investigate the phishing sites that we see being setup. After a while, one will start to recognize the specific frameworks being used, the different techniques or even discover who has been (successfully) targeted by the attacks. So, you can probably imagine: that’s just really fun to do 😀.</p>
+
+
+
+<h2><strong>New framework </strong></h2>
+
+
+
+<p>Recently we stumbled upon a new phishing framework. The framework is called Universal Admin, better known as “uAdmin”. After some time, we were able to get our hands on the source code of the uAdmin framework. This was great, as it allows us to see the internal working of such a phishing scam. By analyzing the source code we determined some interesting facts.</p>
+
+
+
+<h2><strong>Separated phishing page and admin panel</strong></h2>
+
+
+
+<p>uAdmin consists of two main components. The first part is a phishing page, also called “FAKES”. Those fakes are the phishing pages that the victim will see. &nbsp;For example: a fake ING or ABN login page. The fake pages look remarkably similar to the legitimate ones and will be hard to distinguish from real. All the information that a victim fills in into the fake is sent to the attacker.</p>
+
+
+
+<figure class="wp-block-image"><img data-attachment-id="592" data-permalink="https://zolder.io/inside-a-phishing-panel/pic1/" data-orig-file="https://i2.wp.com/zolder.io/wp-content/uploads/2020/05/pic1.png?fit=1428%2C1273&amp;ssl=1" data-orig-size="1428,1273" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="pic1" data-image-description data-image-caption data-medium-file="https://i2.wp.com/zolder.io/wp-content/uploads/2020/05/pic1.png?fit=300%2C267&amp;ssl=1" data-large-file="https://i2.wp.com/zolder.io/wp-content/uploads/2020/05/pic1.png?fit=1024%2C913&amp;ssl=1" loading="lazy" width="1428" height="1273" src="https://i2.wp.com/zolder.io/wp-content/uploads/2020/05/pic1.png?resize=1428%2C1273&amp;ssl=1" alt class="wp-image-592 jetpack-lazy-image" data-recalc-dims="1" data-lazy-srcset="https://i2.wp.com/zolder.io/wp-content/uploads/2020/05/pic1.png?w=1428&amp;ssl=1 1428w, https://i2.wp.com/zolder.io/wp-content/uploads/2020/05/pic1.png?resize=300%2C267&amp;ssl=1 300w, https://i2.wp.com/zolder.io/wp-content/uploads/2020/05/pic1.png?resize=1024%2C913&amp;ssl=1 1024w, https://i2.wp.com/zolder.io/wp-content/uploads/2020/05/pic1.png?resize=768%2C685&amp;ssl=1 768w, https://i2.wp.com/zolder.io/wp-content/uploads/2020/05/pic1.png?resize=1200%2C1070&amp;ssl=1 1200w" data-lazy-sizes="(max-width: 1000px) 100vw, 1000px" data-lazy-src="https://i2.wp.com/zolder.io/wp-content/uploads/2020/05/pic1.png?resize=1428%2C1273&amp;is-pending-load=1#038;ssl=1" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"><noscript><img data-attachment-id="592" data-permalink="https://zolder.io/inside-a-phishing-panel/pic1/" data-orig-file="https://i2.wp.com/zolder.io/wp-content/uploads/2020/05/pic1.png?fit=1428%2C1273&amp;ssl=1" data-orig-size="1428,1273" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="pic1" data-image-description="" data-image-caption="" data-medium-file="https://i2.wp.com/zolder.io/wp-content/uploads/2020/05/pic1.png?fit=300%2C267&amp;ssl=1" data-large-file="https://i2.wp.com/zolder.io/wp-content/uploads/2020/05/pic1.png?fit=1024%2C913&amp;ssl=1" loading="lazy" width="1428" height="1273" src="https://i2.wp.com/zolder.io/wp-content/uploads/2020/05/pic1.png?resize=1428%2C1273&amp;ssl=1" alt="" class="wp-image-592" srcset="https://i2.wp.com/zolder.io/wp-content/uploads/2020/05/pic1.png?w=1428&amp;ssl=1 1428w, https://i2.wp.com/zolder.io/wp-content/uploads/2020/05/pic1.png?resize=300%2C267&amp;ssl=1 300w, https://i2.wp.com/zolder.io/wp-content/uploads/2020/05/pic1.png?resize=1024%2C913&amp;ssl=1 1024w, https://i2.wp.com/zolder.io/wp-content/uploads/2020/05/pic1.png?resize=768%2C685&amp;ssl=1 768w, https://i2.wp.com/zolder.io/wp-content/uploads/2020/05/pic1.png?resize=1200%2C1070&amp;ssl=1 1200w" sizes="(max-width: 1000px) 100vw, 1000px" data-recalc-dims="1" /></noscript></figure>
+
+
+
+<p>The second part is the uAdmin panel. This is only accessible to the attacker, and allows him to see the status of the attack. Furthermore the panel allows the attacker to perform specific actions targeted at the current visitor on the phishing site.</p>
+
+
+
+<figure class="wp-block-image"><img data-attachment-id="593" data-permalink="https://zolder.io/inside-a-phishing-panel/pic2/" data-orig-file="https://i0.wp.com/zolder.io/wp-content/uploads/2020/05/pic2.png?fit=1432%2C1074&amp;ssl=1" data-orig-size="1432,1074" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="pic2" data-image-description data-image-caption data-medium-file="https://i0.wp.com/zolder.io/wp-content/uploads/2020/05/pic2.png?fit=300%2C225&amp;ssl=1" data-large-file="https://i0.wp.com/zolder.io/wp-content/uploads/2020/05/pic2.png?fit=1024%2C768&amp;ssl=1" loading="lazy" width="1432" height="1074" src="https://i0.wp.com/zolder.io/wp-content/uploads/2020/05/pic2.png?resize=1432%2C1074&amp;ssl=1" alt class="wp-image-593 jetpack-lazy-image" data-recalc-dims="1" data-lazy-srcset="https://i0.wp.com/zolder.io/wp-content/uploads/2020/05/pic2.png?w=1432&amp;ssl=1 1432w, https://i0.wp.com/zolder.io/wp-content/uploads/2020/05/pic2.png?resize=300%2C225&amp;ssl=1 300w, https://i0.wp.com/zolder.io/wp-content/uploads/2020/05/pic2.png?resize=1024%2C768&amp;ssl=1 1024w, https://i0.wp.com/zolder.io/wp-content/uploads/2020/05/pic2.png?resize=768%2C576&amp;ssl=1 768w, https://i0.wp.com/zolder.io/wp-content/uploads/2020/05/pic2.png?resize=1200%2C900&amp;ssl=1 1200w, https://i0.wp.com/zolder.io/wp-content/uploads/2020/05/pic2.png?resize=800%2C600&amp;ssl=1 800w, https://i0.wp.com/zolder.io/wp-content/uploads/2020/05/pic2.png?resize=400%2C300&amp;ssl=1 400w, https://i0.wp.com/zolder.io/wp-content/uploads/2020/05/pic2.png?resize=200%2C150&amp;ssl=1 200w" data-lazy-sizes="(max-width: 1000px) 100vw, 1000px" data-lazy-src="https://i0.wp.com/zolder.io/wp-content/uploads/2020/05/pic2.png?resize=1432%2C1074&amp;is-pending-load=1#038;ssl=1" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"><noscript><img data-attachment-id="593" data-permalink="https://zolder.io/inside-a-phishing-panel/pic2/" data-orig-file="https://i0.wp.com/zolder.io/wp-content/uploads/2020/05/pic2.png?fit=1432%2C1074&amp;ssl=1" data-orig-size="1432,1074" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="pic2" data-image-description="" data-image-caption="" data-medium-file="https://i0.wp.com/zolder.io/wp-content/uploads/2020/05/pic2.png?fit=300%2C225&amp;ssl=1" data-large-file="https://i0.wp.com/zolder.io/wp-content/uploads/2020/05/pic2.png?fit=1024%2C768&amp;ssl=1" loading="lazy" width="1432" height="1074" src="https://i0.wp.com/zolder.io/wp-content/uploads/2020/05/pic2.png?resize=1432%2C1074&amp;ssl=1" alt="" class="wp-image-593" srcset="https://i0.wp.com/zolder.io/wp-content/uploads/2020/05/pic2.png?w=1432&amp;ssl=1 1432w, https://i0.wp.com/zolder.io/wp-content/uploads/2020/05/pic2.png?resize=300%2C225&amp;ssl=1 300w, https://i0.wp.com/zolder.io/wp-content/uploads/2020/05/pic2.png?resize=1024%2C768&amp;ssl=1 1024w, https://i0.wp.com/zolder.io/wp-content/uploads/2020/05/pic2.png?resize=768%2C576&amp;ssl=1 768w, https://i0.wp.com/zolder.io/wp-content/uploads/2020/05/pic2.png?resize=1200%2C900&amp;ssl=1 1200w, https://i0.wp.com/zolder.io/wp-content/uploads/2020/05/pic2.png?resize=800%2C600&amp;ssl=1 800w, https://i0.wp.com/zolder.io/wp-content/uploads/2020/05/pic2.png?resize=400%2C300&amp;ssl=1 400w, https://i0.wp.com/zolder.io/wp-content/uploads/2020/05/pic2.png?resize=200%2C150&amp;ssl=1 200w" sizes="(max-width: 1000px) 100vw, 1000px" data-recalc-dims="1" /></noscript></figure>
+
+
+
+<p>The admin panel can be hosted on a system different from the phishing site. This has the advantage that usually at one point the fake is taken down by the hosting provider. When separated, the admin panel in that case will just stay online. The attacker just installs the fakes on a new system and carry on. &nbsp;The following graphic shows when separated systems are used:</p>
+
+
+
+<figure class="wp-block-image"><img data-attachment-id="656" data-permalink="https://zolder.io/inside-a-phishing-panel/uadmin/" data-orig-file="https://i2.wp.com/zolder.io/wp-content/uploads/2020/05/uadmin.png?fit=1347%2C893&amp;ssl=1" data-orig-size="1347,893" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="uadmin" data-image-description data-image-caption data-medium-file="https://i2.wp.com/zolder.io/wp-content/uploads/2020/05/uadmin.png?fit=300%2C199&amp;ssl=1" data-large-file="https://i2.wp.com/zolder.io/wp-content/uploads/2020/05/uadmin.png?fit=1024%2C679&amp;ssl=1" loading="lazy" width="1347" height="893" src="https://i2.wp.com/zolder.io/wp-content/uploads/2020/05/uadmin.png?resize=1347%2C893&amp;ssl=1" alt class="wp-image-656 jetpack-lazy-image" data-recalc-dims="1" data-lazy-srcset="https://i2.wp.com/zolder.io/wp-content/uploads/2020/05/uadmin.png?w=1347&amp;ssl=1 1347w, https://i2.wp.com/zolder.io/wp-content/uploads/2020/05/uadmin.png?resize=300%2C199&amp;ssl=1 300w, https://i2.wp.com/zolder.io/wp-content/uploads/2020/05/uadmin.png?resize=1024%2C679&amp;ssl=1 1024w, https://i2.wp.com/zolder.io/wp-content/uploads/2020/05/uadmin.png?resize=768%2C509&amp;ssl=1 768w, https://i2.wp.com/zolder.io/wp-content/uploads/2020/05/uadmin.png?resize=1200%2C796&amp;ssl=1 1200w" data-lazy-sizes="(max-width: 1000px) 100vw, 1000px" data-lazy-src="https://i2.wp.com/zolder.io/wp-content/uploads/2020/05/uadmin.png?resize=1347%2C893&amp;is-pending-load=1#038;ssl=1" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"><noscript><img data-attachment-id="656" data-permalink="https://zolder.io/inside-a-phishing-panel/uadmin/" data-orig-file="https://i2.wp.com/zolder.io/wp-content/uploads/2020/05/uadmin.png?fit=1347%2C893&amp;ssl=1" data-orig-size="1347,893" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="uadmin" data-image-description="" data-image-caption="" data-medium-file="https://i2.wp.com/zolder.io/wp-content/uploads/2020/05/uadmin.png?fit=300%2C199&amp;ssl=1" data-large-file="https://i2.wp.com/zolder.io/wp-content/uploads/2020/05/uadmin.png?fit=1024%2C679&amp;ssl=1" loading="lazy" width="1347" height="893" src="https://i2.wp.com/zolder.io/wp-content/uploads/2020/05/uadmin.png?resize=1347%2C893&amp;ssl=1" alt="" class="wp-image-656" srcset="https://i2.wp.com/zolder.io/wp-content/uploads/2020/05/uadmin.png?w=1347&amp;ssl=1 1347w, https://i2.wp.com/zolder.io/wp-content/uploads/2020/05/uadmin.png?resize=300%2C199&amp;ssl=1 300w, https://i2.wp.com/zolder.io/wp-content/uploads/2020/05/uadmin.png?resize=1024%2C679&amp;ssl=1 1024w, https://i2.wp.com/zolder.io/wp-content/uploads/2020/05/uadmin.png?resize=768%2C509&amp;ssl=1 768w, https://i2.wp.com/zolder.io/wp-content/uploads/2020/05/uadmin.png?resize=1200%2C796&amp;ssl=1 1200w" sizes="(max-width: 1000px) 100vw, 1000px" data-recalc-dims="1" /></noscript></figure>
+
+
+
+<h2><strong>Extendable</strong></h2>
+
+
+
+<p>uAdmin is an extendable framework. The code we obtained included fake sites for these banks by default: ING, ABN, SNS and Regiobank. It is possible to extend the framework easily with other phishing pages. Someone with PHP coding experience is even able to write his own custom phishing pages. So far, we have seen phishing pages for the following companies using the uAdmin framework:</p>
+
+
+
+<ul><li>bunq</li><li>Triodos</li><li>ASN</li><li>Rabobank</li><li>KNAB</li><li>PostNL</li><li>Marktplaats</li><li>MijnOverheid</li><li>DigiD</li><li>ING Betaalverzoek</li><li>ING BE</li><li>BEOBANK</li><li>BNP</li><li>Argenta</li><li>AXA</li><li>KBC</li><li>Belfius</li><li>Fortis</li><li>FOD</li><li>CSAM</li></ul>
+
+
+
+<p>We have also seen a few fakes imitating banks from Germany (Sparkasse and Commerzbank) and Spain (Caixa Es and Santadar).</p>
+
+
+
+<h2><strong>Man in the middle</strong></h2>
+
+
+
+<p>This uAdmin framework is built to perform man-in-the-middle attacks. This makes the framework very powerful. The attacker sits between the victim and his bank, and lures his prey through all steps that are required to take over the bank account.</p>
+
+
+
+<p><em>For example: the victim fills in the username and password of his bank account. After that he will be prompted a waiting screen (something to educate users on: banks never show spinning waiting icons for a very long time). Meanwhile, the attacker logs in with the stolen credentials at the real bank. The bank now prompts the attacker for the second factor in the login process. Which the attacker copies, and serves to the victim on the phishing site. The attacker is going to wait for the victim to login through his second factor device and return the information through the phishing page. Once submitted, the attacker will use this information to get access to the real bank. The victim then is forwarded to the legitimate banking site and probably will think an unimportant glitch occurred. At the same time the criminal is in the bank account and will order a money mule to send the money to and will withdraw it from an ATM.</em></p>
+
+
+
+<p>The required steps differ for each bank. That’s why for every bank specific fake pages are available with different functions. But the idea is the same: request information from the victim or let them take actions (e.g. approve something on the mobile). Also, the flexibility of this panel enables the creativity of the phishers. We have even seen a panel that allowed a phisher to push a malicious APK file (mobile app for Android devices) to a victim. That does not seem to be directly useful to phish bank accounts, but might be used for other criminal activities.</p>
+
+
+
+<figure class="wp-block-image"><img data-attachment-id="649" data-permalink="https://zolder.io/inside-a-phishing-panel/exj-lfwwkaapoai/" data-orig-file="https://i2.wp.com/zolder.io/wp-content/uploads/2020/05/EXJ-LFwWkAAPOAI.png?fit=1001%2C1088&amp;ssl=1" data-orig-size="1001,1088" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="EXJ-LFwWkAAPOAI" data-image-description data-image-caption data-medium-file="https://i2.wp.com/zolder.io/wp-content/uploads/2020/05/EXJ-LFwWkAAPOAI.png?fit=276%2C300&amp;ssl=1" data-large-file="https://i2.wp.com/zolder.io/wp-content/uploads/2020/05/EXJ-LFwWkAAPOAI.png?fit=942%2C1024&amp;ssl=1" loading="lazy" width="1001" height="1088" src="https://i2.wp.com/zolder.io/wp-content/uploads/2020/05/EXJ-LFwWkAAPOAI.png?resize=1001%2C1088&amp;ssl=1" alt class="wp-image-649 jetpack-lazy-image" data-recalc-dims="1" data-lazy-srcset="https://i2.wp.com/zolder.io/wp-content/uploads/2020/05/EXJ-LFwWkAAPOAI.png?w=1001&amp;ssl=1 1001w, https://i2.wp.com/zolder.io/wp-content/uploads/2020/05/EXJ-LFwWkAAPOAI.png?resize=276%2C300&amp;ssl=1 276w, https://i2.wp.com/zolder.io/wp-content/uploads/2020/05/EXJ-LFwWkAAPOAI.png?resize=942%2C1024&amp;ssl=1 942w, https://i2.wp.com/zolder.io/wp-content/uploads/2020/05/EXJ-LFwWkAAPOAI.png?resize=768%2C835&amp;ssl=1 768w" data-lazy-sizes="(max-width: 1000px) 100vw, 1000px" data-lazy-src="https://i2.wp.com/zolder.io/wp-content/uploads/2020/05/EXJ-LFwWkAAPOAI.png?resize=1001%2C1088&amp;is-pending-load=1#038;ssl=1" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"><noscript><img data-attachment-id="649" data-permalink="https://zolder.io/inside-a-phishing-panel/exj-lfwwkaapoai/" data-orig-file="https://i2.wp.com/zolder.io/wp-content/uploads/2020/05/EXJ-LFwWkAAPOAI.png?fit=1001%2C1088&amp;ssl=1" data-orig-size="1001,1088" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="EXJ-LFwWkAAPOAI" data-image-description="" data-image-caption="" data-medium-file="https://i2.wp.com/zolder.io/wp-content/uploads/2020/05/EXJ-LFwWkAAPOAI.png?fit=276%2C300&amp;ssl=1" data-large-file="https://i2.wp.com/zolder.io/wp-content/uploads/2020/05/EXJ-LFwWkAAPOAI.png?fit=942%2C1024&amp;ssl=1" loading="lazy" width="1001" height="1088" src="https://i2.wp.com/zolder.io/wp-content/uploads/2020/05/EXJ-LFwWkAAPOAI.png?resize=1001%2C1088&amp;ssl=1" alt="" class="wp-image-649" srcset="https://i2.wp.com/zolder.io/wp-content/uploads/2020/05/EXJ-LFwWkAAPOAI.png?w=1001&amp;ssl=1 1001w, https://i2.wp.com/zolder.io/wp-content/uploads/2020/05/EXJ-LFwWkAAPOAI.png?resize=276%2C300&amp;ssl=1 276w, https://i2.wp.com/zolder.io/wp-content/uploads/2020/05/EXJ-LFwWkAAPOAI.png?resize=942%2C1024&amp;ssl=1 942w, https://i2.wp.com/zolder.io/wp-content/uploads/2020/05/EXJ-LFwWkAAPOAI.png?resize=768%2C835&amp;ssl=1 768w" sizes="(max-width: 1000px) 100vw, 1000px" data-recalc-dims="1" /></noscript></figure>
+
+
+
+<h2><strong>A typical attack</strong></h2>
+
+
+
+<p>Let me make it more tangible with an example. This is a example flow of a typical phishing attack (might differ per bank). </p>
+
+
+
+<ul class="wp-block-jetpack-timeline">
+<li style="background-color:#058aab" class="wp-block-jetpack-timeline-item"><div class="timeline-item"><div class="timeline-item__bubble" style="border-color:#058aab"></div><div class="timeline-item__dot" style="background-color:#058aab"></div>
+<h2 class="has-white-color has-text-color">Message</h2>
+
+
+
+<div class="wp-block-columns">
+<div class="wp-block-column" style="flex-basis:66.66%">
+<p class="has-white-color has-text-color">The phisher sends a message to the victim to lure him/her to a phishing site. The method and the scenarios used by the phishers are changing all the time. Victims are for example approached through text messages, e-mails, WhatsApp or auction sites.</p>
+</div>
+
+
+
+<div class="wp-block-column" style="flex-basis:33.33%">
+<div class="wp-block-coblocks-icon has-text-align-center is-style-filled"><div class="wp-block-coblocks-icon__inner has-text-color has-white-color" style="height:120px;width:120px"><svg viewbox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true"><path d="m19.99 7c0-.72-.37-1.35-.94-1.7l-9.05-5.3-9.05 5.3c-.57.35-.95.98-.95 1.7v11c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2zm-9.99 5-8.26-5.16 8.26-4.84 8.26 4.84z"></path></svg></div></div>
+</div>
+</div>
+</div></li>
+
+
+
+<li style="background-color:#058aab" class="wp-block-jetpack-timeline-item"><div class="timeline-item"><div class="timeline-item__bubble" style="border-color:#058aab"></div><div class="timeline-item__dot" style="background-color:#058aab"></div>
+<h2 class="has-white-color has-text-color">Fake Site</h2>
+
+
+
+<div class="wp-block-columns">
+<div class="wp-block-column" style="flex-basis:66.66%">
+<p class="has-white-color has-text-color">the victim clicks on the link. A imitation of a legit website is shown. The URL might be an indication of a phishing attack. But usually the website and even the URL looks like the legit website.</p>
+</div>
+
+
+
+<div class="wp-block-column" style="flex-basis:33.33%">
+<div class="wp-block-coblocks-icon"><div class="wp-block-coblocks-icon__inner has-text-color has-white-color" style="height:120px;width:120px"><svg viewbox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true"><path d="m10 0c-5.52 0-10 4.48-10 10s4.48 10 10 10 10-4.48 10-10-4.48-10-10-10zm-8 10c0-.61.08-1.21.21-1.78l4.78 4.78v1c0 1.1.9 2 2 2v1.93c-3.93-.5-6.99-3.86-6.99-7.93zm13.89 5.4c-.26-.81-1-1.4-1.9-1.4h-1v-3c0-.55-.45-1-1-1h-6v-2h2c.55 0 1-.45 1-1v-2h2c1.1 0 2-.9 2-2v-.41c2.93 1.18 5.01 4.06 5.01 7.41 0 2.08-.81 3.98-2.11 5.4z"></path></svg></div></div>
+</div>
+</div>
+</div></li>
+
+
+
+<li style="background-color:#ae1f1d" class="wp-block-jetpack-timeline-item"><div class="timeline-item"><div class="timeline-item__bubble" style="border-color:#ae1f1d"></div><div class="timeline-item__dot" style="background-color:#ae1f1d"></div>
+<h2 class="has-white-color has-text-color">UADMIN</h2>
+
+
+
+<div class="wp-block-columns">
+<div class="wp-block-column" style="flex-basis:33.33%">
+<div class="wp-block-coblocks-icon has-text-align-center is-style-filled"><div class="wp-block-coblocks-icon__inner has-text-color has-white-color" style="height:120px;width:120px"><svg viewbox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true"><path d="m20.0286458 10.0068123-2.2181818-2.52727276.3090909-3.34545455-3.2818182-.74545454-1.7181818-2.8909091-3.0909091 1.32727273-3.09090906-1.32727273-1.71818182 2.8909091-3.28181818.73636363.30909091 3.34545455-2.21818182 2.53636367 2.21818182 2.5272727-.30909091 3.3545454 3.28181818.7454546 1.71818182 2.8909091 3.09090906-1.3363637 3.0909091 1.3272728 1.7181818-2.8909091 3.2818182-.7454546-.3090909-3.3454545zm-9.0909091 4.5454545h-1.81818178v-1.8181818h1.81818178zm0-3.6363636h-1.81818178v-5.45454548h1.81818178z"></path></svg></div></div>
+</div>
+
+
+
+<div class="wp-block-column" style="flex-basis:66.66%">
+<p class="has-white-color has-text-color">The phisher gets a alarm in uAdmin that the victim has clicked the link. He is waiting the victim to fill in his/her first credentials.</p>
+</div>
+</div>
+
+
+
+<p></p>
+</div></li>
+
+
+
+<li style="background-color:#058aab" class="wp-block-jetpack-timeline-item"><div class="timeline-item"><div class="timeline-item__bubble" style="border-color:#058aab"></div><div class="timeline-item__dot" style="background-color:#058aab"></div>
+<h2 class="has-white-color has-text-color">1<sup>ST</sup> FACTOR</h2>
+
+
+
+<div class="wp-block-columns">
+<div class="wp-block-column" style="flex-basis:66.66%">
+<p class="has-white-color has-text-color">the victim fills in the first credentials. Depending on the bank, this might be a username / password combination or something generated by a external device (e-identifier, scanner, etc). After filling in a waiting screen is shown.</p>
+</div>
+
+
+
+<div class="wp-block-column" style="flex-basis:33.33%">
+<div class="wp-block-coblocks-icon has-text-align-center is-style-filled"><div class="wp-block-coblocks-icon__inner has-text-color has-white-color" style="height:120px;width:120px"><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24" role="img" aria-hidden="true"><path d="M0 0h24v24H0z" fill="none"></path><path d="M12 1L3 5v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V5l-9-4zm-2 16l-4-4 1.41-1.41L10 14.17l6.59-6.59L18 9l-8 8z"></path></svg></div></div>
+</div>
+</div>
+</div></li>
+
+
+
+<li style="background-color:#ae1f1d" class="wp-block-jetpack-timeline-item"><div class="timeline-item"><div class="timeline-item__bubble" style="border-color:#ae1f1d"></div><div class="timeline-item__dot" style="background-color:#ae1f1d"></div>
+<h2 class="has-white-color has-text-color">Bank App</h2>
+
+
+
+<div class="wp-block-columns">
+<div class="wp-block-column" style="flex-basis:33.33%">
+<div class="wp-block-coblocks-icon has-text-align-center is-style-filled"><div class="wp-block-coblocks-icon__inner has-text-color has-white-color" style="height:120px;width:120px"><svg viewbox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true"><path d="m15.8333333 0h-11.66666663c-1.15 0-2.08333334.93333333-2.08333334 2.08333333v15.83333337c0 1.15.93333334 2.0833333 2.08333334 2.0833333h11.66666663c1.15 0 2.0833334-.9333333 2.0833334-2.0833333v-15.83333337c0-1.15-.9333334-2.08333333-2.0833334-2.08333333zm-5.8333333 19.1666667c-.69166667 0-1.25-.5583334-1.25-1.25 0-.6916667.55833333-1.25 1.25-1.25.6916667 0 1.25.5583333 1.25 1.25 0 .6916666-.5583333 1.25-1.25 1.25zm6.25-3.3333334h-12.5v-13.3333333h12.5z"></path></svg></div></div>
+</div>
+
+
+
+<div class="wp-block-column" style="flex-basis:66.66%">
+<p class="has-white-color has-text-color">the phisher gets the first credentials and opens the corresponding bank application on a phone. He fills in the information obtained from the victim, while the victim is still at the waiting screen. The app usually returns a response from the bank, such as a code.</p>
+</div>
+</div>
+</div></li>
+
+
+
+<li style="background-color:#ae1f1d" class="wp-block-jetpack-timeline-item"><div class="timeline-item"><div class="timeline-item__bubble" style="border-color:#ae1f1d"></div><div class="timeline-item__dot" style="background-color:#ae1f1d"></div>
+<h2 class="has-white-color has-text-color">Command</h2>
+
+
+
+<div class="wp-block-columns">
+<div class="wp-block-column" style="flex-basis:33.33%">
+<div class="wp-block-coblocks-icon has-text-align-center is-style-filled"><div class="wp-block-coblocks-icon__inner has-text-color has-white-color" style="height:120px;width:120px"><svg viewbox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true"><g fill="currentColor" fillrule="nonzero"><path d="m16.6666667 10c0-2.11666667-.9916667-4.00833333-2.5333334-5.225l-.8-4.775h-6.66666663l-.79166667 4.775c-1.55 1.21666667-2.54166667 3.1-2.54166667 5.225s.99166667 4.0083333 2.54166667 5.225l.79166667 4.775h6.66666663l.8-4.775c1.5416667-1.2166667 2.5333334-3.1083333 2.5333334-5.225zm-11.6666667 0c0-2.75833333 2.24166667-5 5-5 2.7583333 0 5 2.24166667 5 5 0 2.7583333-2.2416667 5-5 5-2.75833333 0-5-2.2416667-5-5z"></path><path d="m11.925 1.66666667.3416667 2.06666666c-.7083334-.25833333-1.4666667-.4-2.2666667-.4-.79166667 0-1.55833333.14166667-2.25833333.39166667l.34166666-2.05833333zm.3416667 14.60000003-.3416667 2.0666666h-3.84166667l-.34166666-2.0583333c.7.25 1.46666666.3916667 2.25833333.3916667.8 0 1.5583333-.1416667 2.2666667-.4zm1.0666666-16.2666667h-6.66666663l-.79166667 4.775c-1.55 1.21666667-2.54166667 3.1-2.54166667 5.225s.99166667 4.0083333 2.54166667 5.225l.79166667 4.775h6.66666663l.8-4.775c1.5416667-1.2166667 2.5333334-3.1083333 2.5333334-5.225 0-2.11666667-.9916667-4.00833333-2.5333334-5.225zm-3.3333333 15c-2.75833333 0-5-2.2416667-5-5 0-2.75833333 2.24166667-5 5-5 2.7583333 0 5 2.24166667 5 5 0 2.7583333-2.2416667 5-5 5z"></path></g></svg></div></div>
+</div>
+
+
+
+<div class="wp-block-column" style="flex-basis:66.66%">
+<p class="has-white-color has-text-color">the phisher returns the response from the bank, back to the victim.</p>
+</div>
+</div>
+</div></li>
+
+
+
+<li style="background-color:#058aab" class="wp-block-jetpack-timeline-item"><div class="timeline-item"><div class="timeline-item__bubble" style="border-color:#058aab"></div><div class="timeline-item__dot" style="background-color:#058aab"></div>
+<h2 class="has-white-color has-text-color">2<sup>ND</sup> Factor</h2>
+
+
+
+<div class="wp-block-columns">
+<div class="wp-block-column" style="flex-basis:66.66%">
+<p class="has-white-color has-text-color">the victim uses the response to perform second factor of the authentication process of his bank. He returns (if applicable) information of the second factor authentication back to the attacker by filling it into the phishing site. After filling in a waiting screen is shown again.</p>
+</div>
+
+
+
+<div class="wp-block-column" style="flex-basis:33.33%">
+<div class="wp-block-coblocks-icon has-text-align-center is-style-filled"><div class="wp-block-coblocks-icon__inner has-text-color has-white-color" style="height:120px;width:120px"><svg viewbox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true"><path d="m14.7660485 2.56204547c-.0789273 0-.1578547-.01973185-.2269162-.05919554-1.894257-.97672626-3.532-1.39109498-5.49531846-1.39109498-1.95345253 0-3.80824585.46369833-5.49531849 1.39109498-.23678212.12825699-.53275978.03946369-.67088269-.19731843-.12825698-.23678213-.03946368-.54262571.19731844-.67088269 1.83506147-.99645811 3.84770954-1.50948605 5.96888274-1.50948605 2.10144136 0 3.93650286.46369833 5.94915086 1.49962013.2466481.12825698.3354414.42423464.2071844.66101676-.0887933.1775866-.256514.27624582-.4341006.27624582zm-14.11813418 5.17960898c-.09865922 0-.19731844-.02959776-.28611174-.08879329-.2269162-.15785475-.27624581-.46369833-.11839106-.69061454.97672627-1.38122906 2.21983242-2.46648047 3.69972071-3.22615645 3.09789947-1.59827935 7.06400007-1.60814527 10.17176547-.00986592 1.4798883.75967598 2.7229944 1.83506147 3.6997207 3.20642461.1578547.21705028.1085251.53275978-.1183911.69061453s-.5327598.10852514-.6906145-.11839106c-.887933-1.24310616-2.0126481-2.21983243-3.3445475-2.90058104-2.8315196-1.45029051-6.45231293-1.45029051-9.27396659.00986593-1.34176537.69061453-2.46648047 1.67720672-3.35441344 2.92031287-.07892737.13812291-.2269162.20718436-.38477095.20718436zm6.16620117 11.90816775c-.12825698 0-.25651396-.0493296-.34530726-.1479889-.85833521-.8583352-1.32203353-1.4108268-1.9830503-2.6046033-.68074861-1.2135084-1.0359218-2.6933967-1.0359218-4.2818101 0-2.93017884 2.50594416-5.31773193 5.58411179-5.31773193 3.07816758 0 5.58411178 2.38755309 5.58411178 5.31773193 0 .2762458-.2170503.4932961-.4932961.4932961s-.4932961-.2170503-.4932961-.4932961c0-2.3875531-2.0619777-4.33113974-4.59751958-4.33113974-2.53554193 0-4.5975196 1.94358664-4.5975196 4.33113974 0 1.4206927.3157095 2.7328603.91753074 3.7983799.631419 1.134581 1.06551956 1.6180112 1.82519554 2.3875531.18745252.1973184.18745252.503162 0 .7004804-.10852514.0986593-.23678212.1479889-.36503911.1479889zm7.07386601-1.8251956c-1.1740447 0-2.2099665-.2959776-3.0584358-.878067-1.47002236-.9964581-2.34808941-2.6144693-2.34808941-4.3311397 0-.2762459.21705028-.4932961.4932961-.4932961.27624581 0 .49329609.2170502.49329609.4932961 0 1.3910949.71034642 2.7032626 1.91398882 3.5122682.7004805.4735642 1.519352.7004804 2.5059442.7004804.2367821 0 .631419-.0295978 1.0260559-.0986592.2663798-.0493296.5228938.128257.5722234.4045028.0493296.2663799-.128257.5228938-.4045028.5722235-.5623575.1085251-1.0556536.118391-1.1937765.118391zm-1.9830503 2.0323799c-.0394637 0-.0887933-.0098659-.128257-.0197318-1.5686816-.4341006-2.59473745-1.01619-3.67012294-2.0718436-1.38122906-1.3713632-2.14090505-3.1965587-2.14090505-5.1500112 0-1.5982794 1.36149722-2.90058107 3.03870394-2.90058107 1.67720675 0 3.03870395 1.30230167 3.03870395 2.90058107 0 1.0556536.9175307 1.9139888 2.0521117 1.9139888 1.1345811 0 2.0521118-.8583352 2.0521118-1.9139888 0-3.71945259-3.2064246-6.73842468-7.15279337-6.73842468-2.80192181 0-5.3670615 1.55881565-6.52137436 3.97596652-.38477096.79913966-.58208939 1.73640226-.58208939 2.76245816 0 .7695419.06906145 1.9830503.66101676 3.5615978.09865922.2565139-.02959776.5426257-.28611173.631419-.25651397.0986592-.54262571-.0394637-.631419-.2861118-.48343018-1.2924357-.7202123-2.5750056-.7202123-3.906905 0-1.1839107.2269162-2.2592961.67088269-3.19655873 1.31216761-2.7525922 4.22261456-4.53832406 7.40930733-4.53832406 4.48899447 0 8.13938557 3.46293858 8.13938557 7.72501679 0 1.5982794-1.3614972 2.9005811-3.038704 2.9005811-1.6772067 0-3.0387039-1.3023017-3.0387039-2.9005811 0-1.0556536-.9175307-1.9139888-2.05211175-1.9139888-1.13458101 0-2.05211175.8583352-2.05211175 1.9139888 0 1.6870727.65115084 3.2656202 1.84492739 4.4495308.93726258.9273967 1.83506151 1.4404246 3.22615641 1.8251956.2663799.0690614.4143688.3453072.3453073.6018212-.0493296.2269162-.256514.374905-.4636983.374905z" transform="translate(1)"></path></svg></div></div>
+</div>
+</div>
+</div></li>
+
+
+
+<li style="background-color:#ae1f1d" class="wp-block-jetpack-timeline-item"><div class="timeline-item"><div class="timeline-item__bubble" style="border-color:#ae1f1d"></div><div class="timeline-item__dot" style="background-color:#ae1f1d"></div>
+<h2 class="has-white-color has-text-color">Login</h2>
+
+
+
+<div class="wp-block-columns">
+<div class="wp-block-column" style="flex-basis:33.33%">
+<div class="wp-block-coblocks-icon has-text-align-center is-style-filled"><div class="wp-block-coblocks-icon__inner has-text-color has-white-color" style="height:120px;width:120px"><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24" role="img" aria-hidden="true"><path d="M0 0h24v24H0z" fill="none"></path><path d="M12 17c1.1 0 2-.9 2-2s-.9-2-2-2-2 .9-2 2 .9 2 2 2zm6-9h-1V6c0-2.76-2.24-5-5-5S7 3.24 7 6h1.9c0-1.71 1.39-3.1 3.1-3.1 1.71 0 3.1 1.39 3.1 3.1v2H6c-1.1 0-2 .9-2 2v10c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V10c0-1.1-.9-2-2-2zm0 12H6V10h12v10z"></path></svg></div></div>
+</div>
+
+
+
+<div class="wp-block-column" style="flex-basis:66.66%">
+<p class="has-white-color has-text-color">the phisher uses the information to get access to the bank account of the victim.</p>
+</div>
+</div>
+</div></li>
+
+
+
+<li style="background-color:#058aab" class="wp-block-jetpack-timeline-item"><div class="timeline-item"><div class="timeline-item__bubble" style="border-color:#058aab"></div><div class="timeline-item__dot" style="background-color:#058aab"></div>
+<h2 class="has-white-color has-text-color">Forward</h2>
+
+
+
+<div class="wp-block-columns">
+<div class="wp-block-column" style="flex-basis:66.66%">
+<p class="has-white-color has-text-color">the phisher redirects the user to another website, whenever he successfully obtained all required information. Usually the user is redirected to the legitimate website of his/her bank.</p>
+</div>
+
+
+
+<div class="wp-block-column" style="flex-basis:33.33%">
+<div class="wp-block-coblocks-icon has-text-align-center"><div class="wp-block-coblocks-icon__inner has-text-color has-white-color" style="height:120px;width:120px"><svg viewbox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true"><path d="m13.1578947 9.47368421v-6.31578947l-3.1578947-3.15789474-3.15789474 3.15789474v2.10526315h-6.31578947v14.73684211h18.94736841v-10.52631579zm-8.42105259 8.42105259h-2.10526316v-2.1052631h2.10526316zm0-4.2105263h-2.10526316v-2.1052631h2.10526316zm0-4.21052629h-2.10526316v-2.10526316h2.10526316zm6.31578949 8.42105259h-2.10526318v-2.1052631h2.10526318zm0-4.2105263h-2.10526318v-2.1052631h2.10526318zm0-4.21052629h-2.10526318v-2.10526316h2.10526318zm0-4.21052632h-2.10526318v-2.10526315h2.10526318zm6.3157895 12.63157891h-2.1052632v-2.1052631h2.1052632zm0-4.2105263h-2.1052632v-2.1052631h2.1052632z"></path></svg></div></div>
+</div>
+</div>
+</div></li>
+
+
+
+<li style="background-color:#ae1f1d" class="wp-block-jetpack-timeline-item"><div class="timeline-item"><div class="timeline-item__bubble" style="border-color:#ae1f1d"></div><div class="timeline-item__dot" style="background-color:#ae1f1d"></div>
+<h2 class="has-white-color has-text-color">Transfer</h2>
+
+
+
+<div class="wp-block-columns">
+<div class="wp-block-column" style="flex-basis:33.33%">
+<div class="wp-block-coblocks-icon has-text-align-center is-style-filled"><div class="wp-block-coblocks-icon__inner has-text-color has-white-color" style="height:120px;width:120px"><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24" role="img" aria-hidden="true"><path d="M0 0h24v24H0V0z" fill="none"></path><path d="M22 12c0-5.52-4.48-10-10-10S2 6.48 2 12s4.48 10 10 10 10-4.48 10-10zm-7-5.5l3.5 3.5-3.5 3.5V11h-4V9h4V6.5zm-6 11L5.5 14 9 10.5V13h4v2H9v2.5z"></path></svg></div></div>
+</div>
+
+
+
+<div class="wp-block-column" style="flex-basis:66.66%">
+<p class="has-white-color has-text-color">the phisher transfers the money to a money mule.</p>
+</div>
+</div>
+</div></li>
+
+
+
+<li style="background-color:#ae1f1d" class="wp-block-jetpack-timeline-item"><div class="timeline-item"><div class="timeline-item__bubble" style="border-color:#ae1f1d"></div><div class="timeline-item__dot" style="background-color:#ae1f1d"></div>
+<h2 class="has-white-color has-text-color">Cash Out</h2>
+
+
+
+<div class="wp-block-columns">
+<div class="wp-block-column" style="flex-basis:33.33%">
+<div class="wp-block-coblocks-icon has-text-align-center"><div class="wp-block-coblocks-icon__inner has-text-color has-white-color" style="height:120px;width:120px"><svg viewbox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true"><g fill="none" fillrule="evenodd"><path d="m0 0h20v20h-20z"></path><path d="m18 2h-16c-1.11 0-1.99.89-1.99 2l-.01 12c0 1.11.89 2 2 2h16c1.11 0 2-.89 2-2v-12c0-1.11-.89-2-2-2zm0 14h-16v-6h16zm0-10h-16v-2h16z" fill="currentColor" fillrule="nonzero"></path></g></svg></div></div>
+</div>
+
+
+
+<div class="wp-block-column" style="flex-basis:66.66%">
+<p class="has-white-color has-text-color">the phisher / money mule cashes the money.</p>
+</div>
+</div>
+</div></li>
+</ul>
+
+
+
+<h2><strong>Conclusion</strong></h2>
+
+
+
+<p>We have been analyzing attacks for over a year now. The uAdmin framework offers one of the most sophisticated panels that we have seen so far, mainly targeting Dutch and Belgian citizens.</p>
+
+
+
+<p>The power behind this panel is its flexibility: the fact that the phisher can send the victim to whatever page or step he wants. This allows him to specifically point the victim to a phishing page, and request the information or push the action he needs at that moment to reach his goal.</p>
+
+
+
+<p>For an attacker this flexibility is very useful. Let’s take the following example: he could first phish a victim to gain access to his bank account. But after that, the victim could be tricked a second time to fill in information, to make a payment above the limit of 5000 euro a day.</p>
+
+
+
+<p>The flexibility also allows the attackers to quickly update their panel. If a bank changes its login procedure to prevent phishing attacks, the phishers just modify the fakes as well.</p>
+
+
+
+<p>Another important feature is the way takedowns are circumvented. They have split up the actual phishing pages and the command and control panel. The phishing page might be taken down, but the admin panel remains untouched if no further investigation is performed.</p>
+    </div>
+</div>            
+            <div class="content-block">
+    <div class="content-block__content">
+        <div class="content-block__top-title content-block__top-title--blog">Blogs</div>
+                                        <div class="content-block__blog">
+                <h2 class="content-block__title">
+                    <a href="../mijlpalen-en-hoe-het-gaat/index.html">Mijlpalen en hoe het gaat</a>
+                </h2>
+                <div class="content-block__top-title content-block__top-title--author">
+                    <a href="../author/rwxsecurity/index.html">Zolder B.V.</a> - 02 jul 2021                </div>
+                Vandaag gebeurden er op Zolder toch een paar dingen die blogwaardig zijn. Dus prima aanleiding om nog maar eens de laptop open te klappen en te vertellen hoe het gaat. Nieuwe collega&#8217;s Het is 1 juli 2021 en we zijn ruim een jaartje onderweg als Zolder. De belangrijkste stap die we vandaag zetten, is dat [&hellip;]                <a href="../mijlpalen-en-hoe-het-gaat/index.html">Lees verder</a>
+            </div>
+                                <div class="content-block__blog">
+                <h2 class="content-block__title">
+                    <a href="../zolder-hoofdsponsor-hcz/index.html">Zolder wordt hoofdsponsor HCZ</a>
+                </h2>
+                <div class="content-block__top-title content-block__top-title--author">
+                    <a href="../author/rwxsecurity/index.html">Zolder B.V.</a> - 01 jul 2021                </div>
+                Vandaag is bekend geworden dat Zolder de nieuwe hoofdsponsor is van HCZ &#8211; Hockeyclub Zevenbergen. De komende drie seizoenen zal het logo van Zolder daarom voorop de shirts van alle HCZ leden prijken. We zijn heel erg trots op deze nieuwe stap voor ons jonge bedrijf, en hopen zo de relatie met onze regio te [&hellip;]                <a href="../zolder-hoofdsponsor-hcz/index.html">Lees verder</a>
+            </div>
+                                <div class="content-block__blog">
+                <h2 class="content-block__title">
+                    <a href="../breda-robotics/index.html">Breda Robotics</a>
+                </h2>
+                <div class="content-block__top-title content-block__top-title--author">
+                    <a href="../author/erikremmelzwaal/index.html">Erik Remmelzwaal</a> - 10 mei 2021                </div>
+                Zolder BV is toegetreden tot het netwerk van Breda Robotics. Deze vereniging brengt organisaties bij elkaar die actief zijn rondom robotisering in de regio West-Brabant. Voor Zolder geeft Breda Robotics de mogelijkheid om samen te werken met de robotiseringsindustrie. Te begrijpen hoe die sector precies werk en op welke vlakken cybersecurity kennis kan worden ingezet [&hellip;]                <a href="../breda-robotics/index.html">Lees verder</a>
+            </div>
+                                <div class="content-block__blog">
+                <h2 class="content-block__title">
+                    <a href="../nl-domeinen-spf-spoofing/index.html">27% .nl domeinen slecht beschermd tegen spoofing</a>
+                </h2>
+                <div class="content-block__top-title content-block__top-title--author">
+                    <a href="../author/erikremmelzwaal/index.html">Erik Remmelzwaal</a> - 29 apr 2021                </div>
+                TLDR: We scanden de DNS records van 1,6 miljoen .nl domeinen en vonden uit: 9% is rechtstreeks gekoppeld aan Microsoft 365, daarmee is Microsoft veruit de grootste Google is nr2 en heeft 4% van de domeinen aan zich verbonden, nagenoeg gelijk aan een aantal andere spelers. Van alle mail-enabled domeinen heeft 27% geen SPF record [&hellip;]                <a href="../nl-domeinen-spf-spoofing/index.html">Lees verder</a>
+            </div>
+                                <div class="content-block__blog">
+                <h2 class="content-block__title">
+                    <a href="../mkb-betaalbare-en-eenvoudige-security-app/index.html">Zolder biedt MKB betaalbare en eenvoudige security-app</a>
+                </h2>
+                <div class="content-block__top-title content-block__top-title--author">
+                    <a href="../author/rwxsecurity/index.html">Zolder B.V.</a> - 12 apr 2021                </div>
+                &#8220;Attic voorkomt dat security een luchtbel wordt&#8221; Security is bij mkb-bedrijven vaak het ondergeschoven kindje. Ze hebben er de mensen en het budget niet voor. Dat maakt deze doelgroep een aantrekkelijk doelwit voor cybercriminelen. Voor de vier doorgewinterde cybersecurity-experts van start-up Zolder reden om Attic te introduceren. Deze eenvoudige, goedkope en toekomstbestendige app maakt mkb’ers [&hellip;]                <a href="../mkb-betaalbare-en-eenvoudige-security-app/index.html">Lees verder</a>
+            </div>
+                                <div class="content-block__blog">
+                <h2 class="content-block__title">
+                    <a href="../nieuwe-themesong-voor-zoldersessions/index.html">Nieuwe Themesong voor Zoldersessions</a>
+                </h2>
+                <div class="content-block__top-title content-block__top-title--author">
+                    <a href="../author/erikremmelzwaal/index.html">Erik Remmelzwaal</a> - 13 mrt 2021                </div>
+                Ik vond het tijd worden voor een nieuw liedje voor onze Zoldersessions. Tot nu toe hadden we er een rechtenvrij liedje onder staan, namelijk EVA_失望した, maar wilden toch iets meer 'eigens'. Daar schakelden we Bjørgen van Essen voor in met dit eindresultaat. Dit is hoe dat tot stand kwam.                <a href="../nieuwe-themesong-voor-zoldersessions/index.html">Lees verder</a>
+            </div>
+                                <div class="content-block__blog">
+                <h2 class="content-block__title">
+                    <a href="../zolder-app-open-beta/index.html">Zolder.App Open Beta</a>
+                </h2>
+                <div class="content-block__top-title content-block__top-title--author">
+                    <a href="../author/rwxsecurity/index.html">Zolder B.V.</a> - 02 feb 2021                </div>
+                We launched the final beta release to the Google and Apple appstores. Any business running on Microsoft 365 is more than welcome to join. As a beta-tester you will receive a free subscription to the Zolder.App Premium Plan for the remainder of the beta phase, which is scheduled to run through April 30th 2021. Zolder.App [&hellip;]                <a href="../zolder-app-open-beta/index.html">Lees verder</a>
+            </div>
+                                <div class="content-block__blog">
+                <h2 class="content-block__title">
+                    <a href="../gestolen-ggd-data-is-topje-van-ijsberg/index.html">GGD data is topje van ijsberg</a>
+                </h2>
+                <div class="content-block__top-title content-block__top-title--author">
+                    <a href="../author/erikremmelzwaal/index.html">Erik Remmelzwaal</a> - 26 jan 2021                </div>
+                Maandag kwam RTL Nieuws, na onderzoek van Daniël Verlaan, naar buiten met het nieuws dat gestolen data van de GGD online wordt verhandeld door criminelen. Het gaat om data die onderdeel uitmaakt van het bron- en contactonderzoek dat de GGD uitvoert als onderdeel van de bestrijding van Corona/COVID-19. De data bevat gevoelige persoonsgegevens en criminelen [&hellip;]                <a href="../gestolen-ggd-data-is-topje-van-ijsberg/index.html">Lees verder</a>
+            </div>
+                                <div class="content-block__blog">
+                <h2 class="content-block__title">
+                    <a href="../ces2021-we-are-ready/index.html">#CES2021 - We Are Ready!</a>
+                </h2>
+                <div class="content-block__top-title content-block__top-title--author">
+                    <a href="../author/erikremmelzwaal/index.html">Erik Remmelzwaal</a> - 06 jan 2021                </div>
+                We are very excited to be part of the #CES2021NL mission! Meet us at CES (Januari 11-14) in our online booth 10609 and see how we solve global challenges with NLTech. Erik Remmelzwaal, Co-Founder &amp; CEO Yes I indeed think we are ready for CES. At this virtual event we will showcase Zolder.App. I am [&hellip;]                <a href="../ces2021-we-are-ready/index.html">Lees verder</a>
+            </div>
+                                <div class="content-block__blog">
+                <h2 class="content-block__title">
+                    <a href="../zolder-app-blog-3-feedback/index.html">Zolder.App Blog 3 - Feedback</a>
+                </h2>
+                <div class="content-block__top-title content-block__top-title--author">
+                    <a href="../author/erikremmelzwaal/index.html">Erik Remmelzwaal</a> - 27 nov 2020                </div>
+                Bij het ontwikkelen van een nieuwe dienst, zeker als dit Software-as-a-Service betreft, is feedback vanuit (potentiële) afnemers cruciaal. In het geval van Zolder.App is de doelgroep het MKB. We zijn al gelijk na lancering van het merk Zolder gestart met het vinden van MKB-ers die als tester wilden helpen. Oproep 19-apr-2020 Dit leidde tot best [&hellip;]                <a href="../zolder-app-blog-3-feedback/index.html">Lees verder</a>
+            </div>
+                                <div class="content-block__blog">
+                <h2 class="content-block__title">
+                    <a href="../azure-app-consent-policies/index.html">Azure App Consent Policies</a>
+                </h2>
+                <div class="content-block__top-title content-block__top-title--author">
+                    <a href="../author/zldrrik/index.html">Rik van Duijn</a> - 11 nov 2020                </div>
+                OAuth consent phishing has been on the rise for a while now. Unsurprisingly, Microsoft has gradually introduced measures to protect from this type of attack. Latest: Risk-Based Step-Up Consent.                <a href="../azure-app-consent-policies/index.html">Lees verder</a>
+            </div>
+                                <div class="content-block__blog">
+                <h2 class="content-block__title">
+                    <a href="../honeytokens-azure-keyvaults/index.html">Honeytokens using Azure Keyvaults</a>
+                </h2>
+                <div class="content-block__top-title content-block__top-title--author">
+                    <a href="../author/zldrrik/index.html">Rik van Duijn</a> - 15 okt 2020                </div>
+                In 2017 Wesley and I gave a presentation at SHA2017 about honey/pot/tokens. We actually planned on building a fully fledged platform. But never came further then the POC phase of that project. This week we got a product demo from the guys at Thinkst, i&#8217;ve always loved this way of thinking: let the attacker come [&hellip;]                <a href="../honeytokens-azure-keyvaults/index.html">Lees verder</a>
+            </div>
+                                <div class="content-block__blog">
+                <h2 class="content-block__title">
+                    <a href="../zolder-app-blog-2-probleem-oplossing/index.html">Zolder.App Blog 2 - Probleem & Oplossing</a>
+                </h2>
+                <div class="content-block__top-title content-block__top-title--author">
+                    <a href="../author/rwxsecurity/index.html">Zolder B.V.</a> - 08 okt 2020                </div>
+                Het is best een goed idee om voordat je begint met het bouwen van een product of dienst, te weten welk probleem je ermee gaat oplossen. Voor Zolder.App: we lossen het probleem dat MKB-ers slecht beveiligd zijn op door enterprise-niveau security voor hen toegankelijk te maken. In feite zijn er een aantal problemen die we [&hellip;]                <a href="../zolder-app-blog-2-probleem-oplossing/index.html">Lees verder</a>
+            </div>
+                                <div class="content-block__blog">
+                <h2 class="content-block__title">
+                    <a href="../risk-home-automation/index.html">Risk of exposed home automation services</a>
+                </h2>
+                <div class="content-block__top-title content-block__top-title--author">
+                    <a href="../author/zldrwesley/index.html">Wesley Neelen</a> - 24 sep 2020                </div>
+                At home, I am automating many things for fun. Currently I am using Home Assistant, an incredibly powerful piece of software for automating your home. Regularly I am combining the home automation experiences with security. Home automation is often related to physical things such as changing lights, moving curtains, opening door locks or turning the [&hellip;]                <a href="../risk-home-automation/index.html">Lees verder</a>
+            </div>
+                                <div class="content-block__blog">
+                <h2 class="content-block__title">
+                    <a href="../zoldersessions-studio-setup/index.html">Zoldersessions Studio Setup</a>
+                </h2>
+                <div class="content-block__top-title content-block__top-title--author">
+                    <a href="../author/rwxsecurity/index.html">Zolder B.V.</a> - 27 aug 2020                </div>
+                Here is the kitlist which we end up with to record our Zoldersessions 🙂 Audio Input 4x Rode Procaster microphone 4x Triton Audio FetHead Microphone PreAmp 4x YellowTec m!ka Mic Boom Focusrite Scarlett 18i8 3rd gen Audio Output 4x Shure SRH840 Headphone ART HeadAmp 4 headphone amplifier Video Input 2x Sony Handycam main cameras Logitech [&hellip;]                <a href="../zoldersessions-studio-setup/index.html">Lees verder</a>
+            </div>
+                                <div class="content-block__blog">
+                <h2 class="content-block__title">
+                    <a href="../zolder-app-blog-1-het-idee/index.html">Zolder.App blog 1 - het idee</a>
+                </h2>
+                <div class="content-block__top-title content-block__top-title--author">
+                    <a href="../author/erikremmelzwaal/index.html">Erik Remmelzwaal</a> - 27 aug 2020                </div>
+                Op Zolder bouwen wij aan een mobiele app die MKB&#8217;ers op een baanbrekende manier moet helpen digitaal weerbaar te zijn. We verwachten in het vierde kwartaal van 2020 de app te kunnen lanceren. In deze blogreeks neem ik je mee in de ontwikkeling van Zolder.App. Eigenlijk was er niet 1 idee, maar is Zolder.App het [&hellip;]                <a href="../zolder-app-blog-1-het-idee/index.html">Lees verder</a>
+            </div>
+                                <div class="content-block__blog">
+                <h2 class="content-block__title">
+                    <a href="../hacking-the-traffic-light-of-the-future/index.html">Hacking the traffic light of the future</a>
+                </h2>
+                <div class="content-block__top-title content-block__top-title--author">
+                    <a href="../author/zldrwesley/index.html">Wesley Neelen</a> - 06 aug 2020                </div>
+                Nowadays we are connecting everything we can think of to the internet. Usually to make our lives easier or more comfortable. Some of the new upcoming innovations are related to making our traffic smart with the goal to improve safety, comfort and the traffic flow. We dived into this technology to analyze the inner workings and identify potential security risks.                <a href="../hacking-the-traffic-light-of-the-future/index.html">Lees verder</a>
+            </div>
+                                <div class="content-block__blog">
+                <h2 class="content-block__title">
+                    <a href="../using-a-firewall-and-sentinel-to-detect-lateral-movement/index.html">Detect lateral movement with Azure Sentinel</a>
+                </h2>
+                <div class="content-block__top-title content-block__top-title--author">
+                    <a href="../author/zldrwesley/index.html">Wesley Neelen</a> - 01 jul 2020                </div>
+                Lately we have been setting up a the production network for our Zolder.App service. The network consists of multiple segments separated by a firewall. As an addition we wanted to add monitoring features into the network. If an attacker is in our network, we would like to get a notification.                <a href="../using-a-firewall-and-sentinel-to-detect-lateral-movement/index.html">Lees verder</a>
+            </div>
+                                <div class="content-block__blog">
+                <h2 class="content-block__title">
+                    <a href="../csbn-2020/index.html">CSBN 2020</a>
+                </h2>
+                <div class="content-block__top-title content-block__top-title--author">
+                    <a href="../author/erikremmelzwaal/index.html">Erik Remmelzwaal</a> - 01 jul 2020                </div>
+                Het jaarlijks CSBN is weer beschikbaar. Het Cybersecurity Beeld Nederland, opgemaakt door onze overheid in de hoedanigheid van de NCTV. Aan afkortingen geen gebrek. Dat maakt het gelijk ook heel taaie kost: ingewikkeld om te doorgronden. Je gaat haast denken dat het ook de bedoeling is dat we er niet teveel aandacht aan besteden. Of [&hellip;]                <a href="../csbn-2020/index.html">Lees verder</a>
+            </div>
+                                <div class="content-block__blog">
+                <h2 class="content-block__title">
+                    <a href="../detecting-bec-fraud-using-azure-sentinel/index.html">Detecting BEC fraud using Azure Sentinel</a>
+                </h2>
+                <div class="content-block__top-title content-block__top-title--author">
+                    <a href="../author/zldrrik/index.html">Rik van Duijn</a> - 17 jun 2020                </div>
+                Business Email Compromise (BEC) Fraud inflicts the most damage of all types of cybercrime, according to the FBI. How to detect such attacks using Azure Sentinel? Rik shares some actual possibilities.                <a href="../detecting-bec-fraud-using-azure-sentinel/index.html">Lees verder</a>
+            </div>
+            </div>
+</div>
+
+<div class="content-block">
+    <div class="content-block__content">
+        <div class="content-block__top-title">Zoldersessions</div>
+        <div class="content-block-videos">
+                                        <a href="../37-dave-maasland/index.html" class="content-block-video">
+                                            <div class="content-block-video__video" style="background-image: url('https://i1.wp.com/zolder.io/wp-content/uploads/2021/07/Zoldersessions-Dave-Maasland.png?fit=522%2C294&amp;ssl=1')"></div>
+                                        <div class="content-block-video__info">
+                        <div class="content-block-video__title">#37 - Dave Maasland</div>
+                        <div class="content-block-video__time"></div>
+                    </div>
+                </a>
+                            <a href="../36-oscar-koeroo/index.html" class="content-block-video">
+                                            <div class="content-block-video__video" style="background-image: url('https://i1.wp.com/zolder.io/wp-content/uploads/2021/05/Zoldersesssions-Oscar-Koeroo.png?fit=522%2C294&amp;ssl=1')"></div>
+                                        <div class="content-block-video__info">
+                        <div class="content-block-video__title">#36 - Oscar Koeroo</div>
+                        <div class="content-block-video__time"></div>
+                    </div>
+                </a>
+                            <a href="../35-bjorgen-van-essen/index.html" class="content-block-video">
+                                            <div class="content-block-video__video" style="background-image: url('https://i1.wp.com/zolder.io/wp-content/uploads/2021/05/Zoldersessions-Bjorgen-van-Essen.png?fit=522%2C294&amp;ssl=1')"></div>
+                                        <div class="content-block-video__info">
+                        <div class="content-block-video__title">#35 - Bjørgen van Essen</div>
+                        <div class="content-block-video__time"></div>
+                    </div>
+                </a>
+                            <a href="../34-stan-hegt/index.html" class="content-block-video">
+                                            <div class="content-block-video__video" style="background-image: url('https://i1.wp.com/zolder.io/wp-content/uploads/2021/05/Stan-Hegt-Still.png?fit=522%2C294&amp;ssl=1')"></div>
+                                        <div class="content-block-video__info">
+                        <div class="content-block-video__title">#34 - Stan Hegt</div>
+                        <div class="content-block-video__time"></div>
+                    </div>
+                </a>
+                            <a href="../breda-robotics/index.html" class="content-block-video">
+                                            <div class="content-block-video__video" style="background-image: url('https://i0.wp.com/zolder.io/wp-content/uploads/2021/05/breda-robotcs-hand.jpg?fit=522%2C212&amp;ssl=1')"></div>
+                                        <div class="content-block-video__info">
+                        <div class="content-block-video__title">Breda Robotics</div>
+                        <div class="content-block-video__time"></div>
+                    </div>
+                </a>
+                            <a href="../33-chantal-van-spaendonck/index.html" class="content-block-video">
+                                            <div class="content-block-video__video" style="background-image: url('https://i0.wp.com/zolder.io/wp-content/uploads/2021/05/Zoldersessions-Chantal-van-Spaendonck.png?fit=522%2C294&amp;ssl=1')"></div>
+                                        <div class="content-block-video__info">
+                        <div class="content-block-video__title">#33 - Chantal van Spaendonck</div>
+                        <div class="content-block-video__time"></div>
+                    </div>
+                </a>
+                            <a href="../32-thijs-bosschert/index.html" class="content-block-video">
+                                            <div class="content-block-video__video" style="background-image: url('https://i2.wp.com/zolder.io/wp-content/uploads/2021/05/Zoldersessions-Thijs-Bosschert.png?fit=522%2C294&amp;ssl=1')"></div>
+                                        <div class="content-block-video__info">
+                        <div class="content-block-video__title">#32 - Thijs Bosschert</div>
+                        <div class="content-block-video__time"></div>
+                    </div>
+                </a>
+                            <a href="../31-chris-van-t-hof/index.html" class="content-block-video">
+                                            <div class="content-block-video__video" style="background-image: url('https://i2.wp.com/zolder.io/wp-content/uploads/2021/04/Zoldersessions-Chris-van-t-Hof.png?fit=522%2C294&amp;ssl=1')"></div>
+                                        <div class="content-block-video__info">
+                        <div class="content-block-video__title">#31 - Chris van 't Hof</div>
+                        <div class="content-block-video__time"></div>
+                    </div>
+                </a>
+                            <a href="../30-erik-remmelzwaal/index.html" class="content-block-video">
+                                            <div class="content-block-video__video" style="background-image: url('https://i2.wp.com/zolder.io/wp-content/uploads/2021/04/Zoldersessions-Erik-Remmelzwaal.png?fit=522%2C294&amp;ssl=1')"></div>
+                                        <div class="content-block-video__info">
+                        <div class="content-block-video__title">#30 - Erik Remmelzwaal</div>
+                        <div class="content-block-video__time"></div>
+                    </div>
+                </a>
+                            <a href="../29-roos-dijkxhoorn/index.html" class="content-block-video">
+                                            <div class="content-block-video__video" style="background-image: url('https://i1.wp.com/zolder.io/wp-content/uploads/2021/03/Zoldersessions-Roos-Dijkxhoorn-Still.png?fit=522%2C294&amp;ssl=1')"></div>
+                                        <div class="content-block-video__info">
+                        <div class="content-block-video__title">#29 - Roos Dijkxhoorn</div>
+                        <div class="content-block-video__time"></div>
+                    </div>
+                </a>
+                            <a href="../28-john-fokker/index.html" class="content-block-video">
+                                            <div class="content-block-video__video" style="background-image: url('https://i1.wp.com/zolder.io/wp-content/uploads/2021/02/Zoldersessions-John-Fokker-Still.png?fit=522%2C294&amp;ssl=1')"></div>
+                                        <div class="content-block-video__info">
+                        <div class="content-block-video__title">#28 - John Fokker</div>
+                        <div class="content-block-video__time"></div>
+                    </div>
+                </a>
+                            <a href="../27-chantal-stekelenburg/index.html" class="content-block-video">
+                                            <div class="content-block-video__video" style="background-image: url('https://i1.wp.com/zolder.io/wp-content/uploads/2021/02/Zoldersession-Chantal-Stekelenburg-Still.png?fit=522%2C294&amp;ssl=1')"></div>
+                                        <div class="content-block-video__info">
+                        <div class="content-block-video__title">#27 - Chantal Stekelenburg</div>
+                        <div class="content-block-video__time"></div>
+                    </div>
+                </a>
+                    </div>
+    </div>
+</div>
+
+        </div>
+    </div>
+        </div>
+        <div class="body__bottom"><div class="home-content__spacer"></div>
+<a href="#" class="home-content__payoff"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1506.41 792.2">
+    <defs>
+        <style>.payoff-cls-1{fill:#6bb5b9;}.payoff-cls-2{fill:#fcda00;}.payoff-cls-3{fill:#3b403f;}.payoff-cls-4{fill:#fff;}</style>
+    </defs>
+    <g id="podcast">
+        <rect class="payoff-cls-1" x="139.15" y="164.48" width="658.01" height="189.55"/>
+        <rect class="payoff-cls-1" x="139.15" y="364" width="765.83" height="189.55"/>
+        <rect class="payoff-cls-1" x="139.15" y="565.54" width="818.71" height="189.55"/>
+        <rect class="payoff-cls-2" x="90.2" y="37.78" width="421.35" height="85.8"/>
+        <path class="payoff-cls-3"
+              d="M228.23,106.57H175a3,3,0,0,1-3-3V59.94a3,3,0,0,1,3-3H226.2a3,3,0,0,1,3,3v45.62a1,1,0,0,1-1,1M186.41,95.11h28.34a3,3,0,0,0,3-3V71.4a3,3,0,0,0-3-3H186.41a3,3,0,0,0-3,3V92.09A3,3,0,0,0,186.41,95.11Z"/>
+        <path class="payoff-cls-3"
+              d="M293.17,106.57H239.89a3,3,0,0,1-3-3V59.94a3,3,0,0,1,3-3h5.41a3,3,0,0,1,3,3V92.09a3,3,0,0,0,3,3h39.8a3,3,0,0,1,3,3v7.42a1,1,0,0,1-1,1"/>
+        <path class="payoff-cls-3"
+              d="M424.05,67.37V59.94a3,3,0,0,0-3-3H369.77a3,3,0,0,0-3,3v43.6a3,3,0,0,0,3,3H421a3,3,0,0,0,3-3v-5.4a3,3,0,0,0-3-3h-39.8a3,3,0,0,1-3-3V90.5a3,3,0,0,1,3-3h28.34a3,3,0,0,0,3-3V79a3,3,0,0,0-3-3H381.23a3,3,0,0,1-3-3V71.4a3,3,0,0,1,3-3h41.82a1,1,0,0,0,1-1"/>
+        <path class="payoff-cls-3"
+              d="M473.68,87.47H486a3,3,0,0,0,3-3V59.94a3,3,0,0,0-3-3H434.71a3,3,0,0,0-3,3v43.6a3,3,0,0,0,3,3h5.42a3,3,0,0,0,3-3v-13a3,3,0,0,1,3-3h7.74a3,3,0,0,1,2.19.94c1.57,1.67,5.43,5.58,17.16,17.24a3.07,3.07,0,0,0,2.14.89h7.68a3,3,0,0,0,2.13-5.17C481,97.21,476.81,93,473,89.18a1,1,0,0,1,.71-1.71M446.17,68.38h28.34a3,3,0,0,1,3,3V73a3,3,0,0,1-3,3H446.17a3,3,0,0,1-3-3V71.4A3,3,0,0,1,446.17,68.38Z"/>
+        <path class="payoff-cls-3"
+              d="M163.28,56.92H110a3,3,0,0,0-3,3v5.4a3,3,0,0,0,3,3h23.62a3,3,0,0,1,2.13,5.14l-27.89,27.89a3,3,0,0,0-.88,2.13h0a3,3,0,0,0,3,3h51.25a3,3,0,0,0,3-3v-5.4a3,3,0,0,0-3-3H137.64A3,3,0,0,1,135.51,90L163.4,62.08a3,3,0,0,0,.89-2.14v-2a1,1,0,0,0-1-1"/>
+        <path class="payoff-cls-3"
+              d="M347.24,56.92H302.81a1,1,0,0,0-1,1v47.64a1,1,0,0,0,1,1h43.3a3,3,0,0,0,2.14-.89l10-10a3,3,0,0,0,.89-2.13V69.63a3,3,0,0,0-.89-2.14L348,57.22a1,1,0,0,0-.71-.3m-.47,34-3.27,3.27a3,3,0,0,1-2.14.88H314.27a1,1,0,0,1-1-1V69.37a1,1,0,0,1,1-1h27.39a3,3,0,0,1,2.14.88l3,3a3,3,0,0,1,.89,2.14V88.82A3,3,0,0,1,346.77,91Z"/>
+        <path class="payoff-cls-4"
+              d="M222.74,331l-5.27-28.78H187.14L182.31,331H157l27.91-138.66H219L248.23,331Zm-32.3-47.9H214l-12.08-66.37Z"/>
+        <path class="payoff-cls-4"
+              d="M267.13,192.35h51q24,0,23.95,21.75v44.17q0,21.76-23.95,21.76H292.41v51H267.13Zm49.67,62.41V217.62q0-3.51-1.32-4.73c-.88-.8-2.49-1.21-4.83-1.21H292.41v49h18.24q3.51,0,4.83-1.21C316.36,258.68,316.8,257.1,316.8,254.76Z"/>
+        <path class="payoff-cls-4"
+              d="M364.93,192.35h51q24,0,23.95,21.75v44.17q0,21.76-23.95,21.76H390.2v51H364.93Zm49.66,62.41V217.62q0-3.51-1.32-4.73c-.88-.8-2.49-1.21-4.83-1.21H390.2v49h18.24q3.51,0,4.83-1.21C414.15,258.68,414.59,257.1,414.59,254.76Z"/>
+        <path class="payoff-cls-4" d="M488,311.67h36.92V331H462.72V192.35H488Z"/>
+        <path class="payoff-cls-4" d="M544,192.35H569.3V331H544Z"/>
+        <path class="payoff-cls-4" d="M623.8,311.67H666V331H598.31V192.35h65.93v19.33H623.8v38.46h34.06V269.7H623.8Z"/>
+        <path class="payoff-cls-4"
+              d="M688.19,192.35h52.74q24,0,24,21.75v95.16q0,21.75-24,21.75H688.19Zm51.2,114.27V216.74q0-3.51-1.32-4.73c-.87-.8-2.49-1.21-4.83-1.21H713.46V312.55h19.78c2.34,0,4-.4,4.83-1.2S739.39,309,739.39,306.62Z"/>
+        <path class="payoff-cls-4"
+              d="M209.78,506.74V477.07q0-3.51-1.32-4.72c-.88-.8-2.5-1.21-4.84-1.21h-17.8q-22.63,0-22.63-22V415.1q0-21.75,23.73-21.75H211.1q23.73,0,23.73,21.75v19.34H209.34V418.62q0-3.51-1.32-4.73c-.88-.8-2.49-1.21-4.84-1.21h-8.35c-2.49,0-4.17.41-5.05,1.21s-1.32,2.39-1.32,4.73v27.91c0,2.34.44,3.92,1.32,4.72s2.56,1.21,5.05,1.21h17.36q23.09,0,23.08,21.54v36.26q0,21.75-24,21.75H187.58q-24,0-24-21.75V491.14H188.9v15.6c0,2.35.44,3.92,1.32,4.73s2.56,1.2,5.05,1.2h8.35c2.34,0,4-.4,4.84-1.2S209.78,509.09,209.78,506.74Z"/>
+        <path class="payoff-cls-4" d="M285.59,512.67h42.2V532H260.1V393.35H326v19.33H285.59v38.46h34.06V470.7H285.59Z"/>
+        <path class="payoff-cls-4"
+              d="M421.4,439.28H395.91V417.74q0-3.51-1.32-4.73c-.88-.8-2.49-1.21-4.83-1.21H379.43c-2.35,0-4,.41-4.84,1.21s-1.32,2.39-1.32,4.73v90.1c0,2.35.44,3.92,1.32,4.73s2.49,1.2,4.84,1.2h10.33q3.51,0,4.83-1.2c.88-.81,1.32-2.38,1.32-4.73v-21.1H421.4v23.74q0,21.75-23.95,21.75H371.74q-24,0-24-21.75V415.1q0-21.75,24-21.75h25.71q23.94,0,23.95,21.75Z"/>
+        <path class="payoff-cls-4"
+              d="M495,393.35h25.27V510.26q0,21.75-23.95,21.75H469.53q-24,0-24-21.75V393.35h25.28V506.74c0,2.35.44,3.92,1.32,4.73s2.48,1.2,4.83,1.2h11.65q3.74,0,5.05-1.2c.88-.81,1.32-2.38,1.32-4.73Z"/>
+        <path class="payoff-cls-4"
+              d="M573,478V532H547.76V393.35h51q24,0,24,21.75v41.1q0,18-16,21.09L629.73,532H602.48L581.38,478Zm0-65.27v46.59h18.24c2.34,0,4-.4,4.84-1.21s1.32-2.37,1.32-4.72V418.62q0-3.51-1.32-4.73c-.88-.8-2.5-1.21-4.84-1.21Z"/>
+        <path class="payoff-cls-4" d="M650.17,393.35h25.27V532H650.17Z"/>
+        <path class="payoff-cls-4" d="M768.84,393.35v19.33h-24.4V532H719.17V412.68H695V393.35Z"/>
+        <path class="payoff-cls-4" d="M834.76,532H809.49V488.06l-32.3-94.71H802.9l18.9,71.2,17.8-71.2h25.71l-30.55,94Z"/>
+        <path class="payoff-cls-4"
+              d="M191.1,679V733H165.82V594.35h51q24,0,23.95,21.75v41.1q0,18-16,21.09L247.79,733H220.54L199.45,679Zm0-65.27v46.59h18.24q3.51,0,4.83-1.21t1.32-4.72V619.62q0-3.51-1.32-4.73c-.88-.8-2.49-1.21-4.83-1.21Z"/>
+        <path class="payoff-cls-4" d="M292.4,713.67h42.2V733H266.91V594.35h65.93v19.33H292.4v38.46h34.07V671.7H292.4Z"/>
+        <path class="payoff-cls-4"
+              d="M399.65,707.74V678.07q0-3.51-1.32-4.72c-.88-.8-2.5-1.21-4.84-1.21h-17.8q-22.63,0-22.63-22V616.1q0-21.75,23.73-21.75H401q23.75,0,23.74,21.75v19.34H399.21V619.62q0-3.51-1.32-4.73c-.88-.8-2.49-1.21-4.84-1.21H384.7c-2.49,0-4.17.41-5.05,1.21s-1.32,2.39-1.32,4.73v27.91c0,2.34.44,3.92,1.32,4.72s2.56,1.21,5.05,1.21h17.36q23.08,0,23.08,21.54v36.26q0,21.75-24,21.75H377.45q-24,0-23.95-21.75V692.14h25.27v15.6c0,2.35.44,3.92,1.32,4.73s2.56,1.2,5.05,1.2h8.35c2.34,0,4-.4,4.84-1.2S399.65,710.09,399.65,707.74Z"/>
+        <path class="payoff-cls-4" d="M475.46,713.67h42.19V733H450V594.35H515.9v19.33H475.46v38.46h34.06V671.7H475.46Z"/>
+        <path class="payoff-cls-4"
+              d="M595.67,733l-5.28-28.78H560.07L555.23,733H530l27.91-138.66h34.06L621.16,733Zm-32.31-47.9h23.52l-12.09-66.37Z"/>
+        <path class="payoff-cls-4"
+              d="M665.33,679V733H640.06V594.35h51q24,0,24,21.75v41.1q0,18-16,21.09L722,733H694.78L673.68,679Zm0-65.27v46.59h18.24c2.34,0,4-.4,4.84-1.21s1.32-2.37,1.32-4.72V619.62q0-3.51-1.32-4.73c-.88-.8-2.5-1.21-4.84-1.21Z"/>
+        <path class="payoff-cls-4"
+              d="M813.67,640.28H788.18V618.74q0-3.51-1.32-4.73c-.88-.8-2.5-1.21-4.84-1.21H771.69c-2.34,0-4,.41-4.83,1.21s-1.32,2.39-1.32,4.73v90.1c0,2.35.44,3.92,1.32,4.73s2.49,1.2,4.83,1.2H782c2.34,0,4-.4,4.84-1.2s1.32-2.38,1.32-4.73v-21.1h25.49v23.74q0,21.75-24,21.75H764q-24,0-24-21.75V616.1q0-21.75,24-21.75h25.71q24,0,24,21.75Z"/>
+        <path class="payoff-cls-4" d="M891.9,594.35h25.27V733H891.9V673.9H863.33V733H838.06V594.35h25.27v60.21H891.9Z"/>
+    </g>
+</svg></a></div>
+    </div>
+    <footer class="footer">
+        <div class="footer__content">
+            <div class="text-left text-left--footer">
+                <div class="text-left__vertical">
+                    applied security research
+                </div>
+            </div>
+            <div class="footer__socials">
+                <a href="https://www.facebook.com/zolderio" target="_blank" class="footer__social">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 131.36 131.36">
+    <path class="cls-2"
+          d="M82,51l-1.35,13.1-13.06.22v42.88H50.06V64.31l-8.78-.22.22-13.32h8.79c0-5.27-1.57-20.12,5.55-25.28,10.06-7.3,28-2.26,28-2.26L81.59,36.77s-7-1.12-8.11-1.12c-1.73,0-5.85.67-5.85,4.74V51Z"/>
+</svg>                </a>
+                <a href="https://twitter.com/zolderio" target="_blank" class="footer__social">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 131.36 131.36">
+    <path class="cls-2"
+          d="M22.14,97.59a39.61,39.61,0,0,0,18,8c7.46,1.52,18.23,3,34.53-5.8S97.27,82.68,102.51,70a46.9,46.9,0,0,0,3.31-23.75,31.51,31.51,0,0,0,5.25-3.32,21.22,21.22,0,0,0,3.59-4.41s-3.59.82-5.8,1.1a11.41,11.41,0,0,1-4.14-.28,28.91,28.91,0,0,0,3.59-2.48,17.83,17.83,0,0,0,3.31-4.15,7.46,7.46,0,0,0,.83-3,51.92,51.92,0,0,1-6.63,2.77,20.34,20.34,0,0,1-5.24.83S94.5,24.4,81.52,28c-15.3,4.23-14.09,23.47-14.09,23.47S53.63,50.64,44,45.39C35.49,40.79,26.84,31.3,26.84,31.3s-3.32,4.42-2.21,13S32.91,57,32.91,57a13.82,13.82,0,0,1-5,0,20.3,20.3,0,0,1-3.87-1.66,14.44,14.44,0,0,0,4.42,11.88,32.51,32.51,0,0,0,11.33,7.46l-8.56.82a18.54,18.54,0,0,0,7.45,8.84,33.64,33.64,0,0,0,9.94,4.14s-7,4.86-12.43,6.91C31.89,97,22.14,97.59,22.14,97.59Z"/>
+</svg>                </a>
+                <a href="https://www.youtube.com/c/ZolderBV" target="_blank" class="footer__social">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 131.36 131.36">
+    <path class="cls-2"
+          d="M110.37,48.8s-.88-6.23-3.6-9c-3.44-3.6-7.3-3.62-9.06-3.83-12.67-.92-31.66-.92-31.66-.92h0s-19,0-31.66.92h0c-1.79.21-5.61.25-9,3.83-2.71,2.75-3.59,9-3.59,9a136.07,136.07,0,0,0-.91,14.65v6.86A136.07,136.07,0,0,0,21.69,85s.88,6.23,3.59,9c3.44,3.61,8,3.49,10,3.87,7.24.69,30.77.91,30.77.91s19,0,31.68-1c1.76-.21,5.62-.22,9.06-3.83,2.72-2.75,3.6-9,3.6-9a137.55,137.55,0,0,0,.9-14.65V63.45A137.55,137.55,0,0,0,110.37,48.8ZM52,85.07V48L87.64,66.58Z"/>
+</svg>                </a>
+                <a href="https://www.instagram.com/zolderio/" target="_blank" class="footer__social">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 131.36 131.36">
+    <path class="cls-2"
+          d="M22.29,22.11v86.41H108.7V22.11ZM65.51,48.78A16.61,16.61,0,1,1,48.9,65.38,16.61,16.61,0,0,1,65.51,48.78ZM98.72,95.27a3.32,3.32,0,0,1-3.32,3.32H35.62a3.33,3.33,0,0,1-3.33-3.32V58.74h7.52a26.57,26.57,0,1,0,51.39,0h7.52Zm0-49.81a3.32,3.32,0,0,1-3.32,3.32h-10a3.32,3.32,0,0,1-3.31-3.32v-10a3.32,3.32,0,0,1,3.31-3.32h10a3.32,3.32,0,0,1,3.32,3.32Z"/>
+</svg>                </a>
+            </div>
+            <div class="footer__address">
+                <span class="white">Zolder</span>
+                <span>Postbus 40</span>
+                <span>4780 AA Moerdijk</span>
+                <span>Nederland</span>
+            </div>
+            <div class="footer__bottom">
+                <div class="footer__info">
+                    Zolder biedt digitale bescherming voor de technologie van de toekomst. Voor de ontwikkeling en het onderzoeken van de nieuwe digitale veiligheid werkt Zolder met een team van professionele hackers, ervaren security researchers, softwareontwikkelaars en beveiligingsadviseurs. <br> <a href="../privacy/index.html" style="color:#FFFFFF;">Privacy Statement</a> - <a href="../responsible-disclosure/index.html" style="color:#FFFFFF;">Responsible disclosure</a>
+                </div>
+                <div class="footer__logo"></div>
+            </div>
+        </div>
+    </footer>
+</div>
+<!--  -->
+<script defer id='bilmur' data-provider='wordpress.com' data-service='atomic' src='https://s0.wp.com/wp-content/js/bilmur.min.js?m=202129'></script>
+		<div id="jp-carousel-loading-overlay">
+			<div id="jp-carousel-loading-wrapper">
+				<span id="jp-carousel-library-loading">&nbsp;</span>
+			</div>
+		</div>
+		<div class="jp-carousel-overlay" style="display: none;">
+
+		<div class="jp-carousel-container">
+			<!-- The Carousel Swiper -->
+			<div
+				class="jp-carousel-wrap swiper-container jp-carousel-swiper-container jp-carousel-transitions"
+				itemscope
+				itemtype="https://schema.org/ImageGallery">
+				<div class="jp-carousel swiper-wrapper"></div>
+				<div class="jp-swiper-button-prev swiper-button-prev">
+					<svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+						<mask id="maskPrev" mask-type="alpha" maskUnits="userSpaceOnUse" x="8" y="6" width="9" height="12">
+							<path d="M16.2072 16.59L11.6496 12L16.2072 7.41L14.8041 6L8.8335 12L14.8041 18L16.2072 16.59Z" fill="white"/>
+						</mask>
+						<g mask="url(#maskPrev)">
+							<rect x="0.579102" width="23.8823" height="24" fill="#FFFFFF"/>
+						</g>
+					</svg>
+				</div>
+				<div class="jp-swiper-button-next swiper-button-next">
+					<svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+						<mask id="maskNext" mask-type="alpha" maskUnits="userSpaceOnUse" x="8" y="6" width="8" height="12">
+							<path d="M8.59814 16.59L13.1557 12L8.59814 7.41L10.0012 6L15.9718 12L10.0012 18L8.59814 16.59Z" fill="white"/>
+						</mask>
+						<g mask="url(#maskNext)">
+							<rect x="0.34375" width="23.8822" height="24" fill="#FFFFFF"/>
+						</g>
+					</svg>
+				</div>
+			</div>
+			<!-- The main close buton -->
+			<div class="jp-carousel-close-hint">
+				<svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+					<mask id="maskClose" mask-type="alpha" maskUnits="userSpaceOnUse" x="5" y="5" width="15" height="14">
+						<path d="M19.3166 6.41L17.9135 5L12.3509 10.59L6.78834 5L5.38525 6.41L10.9478 12L5.38525 17.59L6.78834 19L12.3509 13.41L17.9135 19L19.3166 17.59L13.754 12L19.3166 6.41Z" fill="white"/>
+					</mask>
+					<g mask="url(#maskClose)">
+						<rect x="0.409668" width="23.8823" height="24" fill="#FFFFFF"/>
+					</g>
+				</svg>
+			</div>
+			<!-- Image info, comments and meta -->
+			<div class="jp-carousel-info">
+				<div class="jp-carousel-info-footer">
+					<div class="jp-carousel-pagination-container">
+						<div class="jp-swiper-pagination swiper-pagination"></div>
+						<div class="jp-carousel-pagination"></div>
+					</div>
+					<div class="jp-carousel-photo-title-container">
+						<h2 class="jp-carousel-photo-caption"></h2>
+					</div>
+					<div class="jp-carousel-photo-icons-container">
+													<a href="#" class="jp-carousel-icon-btn jp-carousel-icon-info" aria-label="Toggle zichtbaarheid metagegevens van foto&#039;s">
+								<span class="jp-carousel-icon">
+									<svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<mask id="maskInfo" mask-type="alpha" maskUnits="userSpaceOnUse" x="2" y="2" width="21" height="20">
+											<path fill-rule="evenodd" clip-rule="evenodd" d="M12.7537 2C7.26076 2 2.80273 6.48 2.80273 12C2.80273 17.52 7.26076 22 12.7537 22C18.2466 22 22.7046 17.52 22.7046 12C22.7046 6.48 18.2466 2 12.7537 2ZM11.7586 7V9H13.7488V7H11.7586ZM11.7586 11V17H13.7488V11H11.7586ZM4.79292 12C4.79292 16.41 8.36531 20 12.7537 20C17.142 20 20.7144 16.41 20.7144 12C20.7144 7.59 17.142 4 12.7537 4C8.36531 4 4.79292 7.59 4.79292 12Z" fill="white"/>
+										</mask>
+										<g mask="url(#maskInfo)">
+											<rect x="0.8125" width="23.8823" height="24" fill="#FFFFFF"/>
+										</g>
+									</svg>
+								</span>
+							</a>
+																		<a href="#" class="jp-carousel-icon-btn jp-carousel-icon-comments" aria-label="Toggle zichtbaarheid foto reacties">
+							<span class="jp-carousel-icon">
+								<svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<mask id="maskComments" mask-type="alpha" maskUnits="userSpaceOnUse" x="2" y="2" width="21" height="20">
+										<path fill-rule="evenodd" clip-rule="evenodd" d="M4.3271 2H20.2486C21.3432 2 22.2388 2.9 22.2388 4V16C22.2388 17.1 21.3432 18 20.2486 18H6.31729L2.33691 22V4C2.33691 2.9 3.2325 2 4.3271 2ZM6.31729 16H20.2486V4H4.3271V18L6.31729 16Z" fill="white"/>
+									</mask>
+									<g mask="url(#maskComments)">
+										<rect x="0.34668" width="23.8823" height="24" fill="#FFFFFF"/>
+									</g>
+								</svg>
+
+								<span class="jp-carousel-has-comments-indicator" aria-label="Deze afbeelding heeft reacties."></span>
+							</span>
+						</a>
+											</div>
+				</div>
+				<div class="jp-carousel-info-extra">
+					<div class="jp-carousel-info-content-wrapper">
+						<div class="jp-carousel-photo-title-container">
+							<h2 class="jp-carousel-photo-title"></h2>
+						</div>
+						<div class="jp-carousel-comments-wrapper">
+															<div id="jp-carousel-comments-loading">
+									<span>Reacties laden....</span>
+								</div>
+								<div class="jp-carousel-comments"></div>
+								<div id="jp-carousel-comment-form-container">
+									<span id="jp-carousel-comment-form-spinner">&nbsp;</span>
+									<div id="jp-carousel-comment-post-results"></div>
+																														<form id="jp-carousel-comment-form">
+												<label for="jp-carousel-comment-form-comment-field" class="screen-reader-text">Laat een reactie achter...</label>
+												<textarea
+													name="comment"
+													class="jp-carousel-comment-form-field jp-carousel-comment-form-textarea"
+													id="jp-carousel-comment-form-comment-field"
+													placeholder="Laat een reactie achter..."
+												></textarea>
+												<div id="jp-carousel-comment-form-submit-and-info-wrapper">
+													<div id="jp-carousel-comment-form-commenting-as">
+																													<fieldset>
+																<label for="jp-carousel-comment-form-email-field">E-mailadres (Vereist)</label>
+																<input type="text" name="email" class="jp-carousel-comment-form-field jp-carousel-comment-form-text-field" id="jp-carousel-comment-form-email-field" />
+															</fieldset>
+															<fieldset>
+																<label for="jp-carousel-comment-form-author-field">Naam (Vereist)</label>
+																<input type="text" name="author" class="jp-carousel-comment-form-field jp-carousel-comment-form-text-field" id="jp-carousel-comment-form-author-field" />
+															</fieldset>
+															<fieldset>
+																<label for="jp-carousel-comment-form-url-field">Site</label>
+																<input type="text" name="url" class="jp-carousel-comment-form-field jp-carousel-comment-form-text-field" id="jp-carousel-comment-form-url-field" />
+															</fieldset>
+																											</div>
+													<input
+														type="submit"
+														name="submit"
+														class="jp-carousel-comment-form-button"
+														id="jp-carousel-comment-form-button-submit"
+														value="Reactie plaatsen" />
+												</div>
+											</form>
+																											</div>
+													</div>
+						<div class="jp-carousel-image-meta">
+							<div class="jp-carousel-title-and-caption">
+								<div class="jp-carousel-photo-info">
+									<h3 class="jp-carousel-caption" itemprop="caption description"></h3>
+								</div>
+
+								<div class="jp-carousel-photo-description"></div>
+							</div>
+							<ul class="jp-carousel-image-exif" style="display: none;"></ul>
+							<a class="jp-carousel-image-download" target="_blank" style="display: none;">
+								<svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<mask id="mask0" mask-type="alpha" maskUnits="userSpaceOnUse" x="3" y="3" width="19" height="18">
+										<path fill-rule="evenodd" clip-rule="evenodd" d="M5.84615 5V19H19.7775V12H21.7677V19C21.7677 20.1 20.8721 21 19.7775 21H5.84615C4.74159 21 3.85596 20.1 3.85596 19V5C3.85596 3.9 4.74159 3 5.84615 3H12.8118V5H5.84615ZM14.802 5V3H21.7677V10H19.7775V6.41L9.99569 16.24L8.59261 14.83L18.3744 5H14.802Z" fill="white"/>
+									</mask>
+									<g mask="url(#mask0)">
+										<rect x="0.870605" width="23.8823" height="24" fill="#FFFFFF"/>
+									</g>
+								</svg>
+								<span class="jp-carousel-download-text"></span>
+							</a>
+							<div class="jp-carousel-image-map" style="display: none;"></div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		</div>
+		<link rel='stylesheet' id='all-css-844d4dd244b34a8d6d441938acf1f7b3' href='../_static/index3509.html??-eJyVjUEOwjAMBD+EsUCopQfEW0piKoPjRLWtfB8h0VNPXEezs71Bquqkjk1iYTV8hggYOwFldtYFX+RtTm9wLiSshJnNd/SYzA593/t5WGoOIcM0rzWMBK1zoxUeoVn+X2/3G/gG7uV2Gs7DOI3T5foBboVS/A==' type='text/css' media='all' />
+<script id='coblocks-lightbox-js-extra'>
+var coblocksLigthboxData = {"closeLabel":"Sluit de galerij","leftLabel":"Vorige","rightLabel":"Volgende"};
+</script>
+<script type='text/javascript'  src='../_static/index2b1f.html??-eJyVkNEKwjAMRX/IrigiexE/Rba2btnapDapU7/eKorg9MGnQHJP7k2mqAyhOBQdfe4AWQ9OYmNGvQc0us3grY49CeGzVAGwGngxzVFDrSczsrbAood3QzUIoRGg/0kPXS8tnX+AB5ATWFYHSmqiZGNyXG44Zpcu1XP4gUrvgmN9JW9dunthc4LuW7qZkkeIJRGOxc/k4gqvXOVZPtsifmQPoeAquegvX941WxsTcCiiXdguN8t6tVmv6/oGYxOb5w=='></script>
+<script src='../wp-content/plugins/jetpack/vendor/automattic/jetpack-lazy-images/dist/intersection-observerc358.js?ver=1.1.3' id='jetpack-lazy-images-polyfill-intersectionobserver-js'></script>
+<script id='jetpack-lazy-images-js-extra'>
+var jetpackLazyImagesL10n = {"loading_warning":"Images are still loading. Please cancel your print and try again."};
+</script>
+<script src='../wp-content/plugins/jetpack/vendor/automattic/jetpack-lazy-images/dist/lazy-imagesc358.js?ver=1.1.3' id='jetpack-lazy-images-js'></script>
+<script id='jetpack-carousel-js-extra'>
+var jetpackSwiperLibraryPath = {"url":"https:\/\/zolder.io\/wp-content\/plugins\/jetpack\/_inc\/build\/carousel\/swiper-bundle.min.js"};
+var jetpackCarouselStrings = {"widths":[370,700,1000,1200,1400,2000],"is_logged_in":"","lang":"nl","ajaxurl":"https:\/\/zolder.io\/wp-admin\/admin-ajax.php","nonce":"cc38448918","display_exif":"1","display_comments":"1","display_geo":"1","single_image_gallery":"1","single_image_gallery_media_file":"","background_color":"black","comment":"Reactie","post_comment":"Reactie plaatsen","write_comment":"Laat een reactie achter...","loading_comments":"Reacties laden....","download_original":"Bekijk volledige grootte <span class=\"photo-size\">{0}<span class=\"photo-size-times\">\u00d7<\/span>{1}<\/span>","no_comment_text":"Zorg ervoor dat je de reactie van tekst voorziet.","no_comment_email":"Gelieve een e-mailadres te geven om te kunnen reageren.","no_comment_author":"Gelieve je naam op te geven om te kunnen reageren.","comment_post_error":"Helaas, er trad een probleem op bij het plaatsen van je reactie. Probeer het later nog een keer.","comment_approved":"Je reactie is goedgekeurd.","comment_unapproved":"Je reactie is in behandeling.","camera":"Camera","aperture":"Opening","shutter_speed":"Sluitersnelheid","focal_length":"Focuslengte","copyright":"Auteursrecht","comment_registration":"0","require_name_email":"1","login_url":"https:\/\/zolder.io\/wp-login.php?redirect_to=https%3A%2F%2Fzolder.io%2Finside-a-phishing-panel%2F","blog_id":"1","meta_data":["camera","aperture","shutter_speed","focal_length","copyright"]};
+</script>
+<script type='text/javascript'  src='../_static/index3a82.html??-eJxdjNsKwjAQBX/IdFGktQ/ip0iTbGVjbnR3Lf69QSxIH88Mc9ZqXMmCWaBGfVBmeBcVtWgwWfSmUQZ2C1VhmEle5LlLlLvAh7Uayi6qR4bA0Oa3+dP774BSJ/eEe+vAKkUPblqKMsbNmQ38bm7peuxP/TAO4/nyARLaQQI='></script>
+<script type='text/javascript'>
+(function() {
+				var expirationDate = new Date();
+				expirationDate.setTime( expirationDate.getTime() + 31536000 * 1000 );
+				document.cookie = "pll_language=nl; expires=" + expirationDate.toUTCString() + "; path=/; secure; SameSite=Lax";
+			}());
+</script>
+		<script type="text/javascript">
+		jQuery(document).ready(function () {
+			jQuery('body').fitVids();
+		});
+		</script><script src='https://stats.wp.com/e-202129.js' defer></script>
+<script>
+	_stq = window._stq || [];
+	_stq.push([ 'view', {v:'ext',j:'1:9.9.1',blog:'169022773',post:'590',tz:'2',srv:'zolder.io'} ]);
+	_stq.push([ 'clickTrackerInit', '169022773', '590' ]);
+</script>
+<script src="../wp-content/themes/zolder/js/appc164.js?v=9"></script>
+</body>
+
+<!-- Mirrored from zolder.io/inside-a-phishing-panel/ by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 23 Jul 2021 03:56:01 GMT -->
+</html>
+<!--
+	generated in 0.426 seconds
+	109715 bytes batcached for 300 seconds
+-->
